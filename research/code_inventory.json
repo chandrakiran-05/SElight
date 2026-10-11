@@ -1,0 +1,1221 @@
+{
+  "files": [
+    {
+      "path": "algorithm_reference.py",
+      "lines": 120,
+      "sha256": "e03deeddbcbe7ae5a5b8aeac10dba7c157427133a85f51df0071854a6ad927f0",
+      "definitions": [
+        {
+          "name": "ReferencePolicy",
+          "line": 15,
+          "kind": "ClassDef",
+          "doc": null
+        },
+        {
+          "name": "choose_training_route",
+          "line": 21,
+          "kind": "FunctionDef",
+          "doc": "Use annotated DEVELOPMENT images only; never use this at inference.\n\nquality[r]: per-image F1 at IoU >= 0.5 and confidence >= 0.25.\ncost[r]: pooled relative extra route time, original cost is zero.\nTies prefer original, then gamma, then CLAHE."
+        },
+        {
+          "name": "fit_reference_policy",
+          "line": 51,
+          "kind": "FunctionDef",
+          "doc": "Match the existing train() candidate search, without writing files.\n\nExpects the JSON produced by `python -m selight cache`.\nThe production CLI additionally writes policy.json, readable rules,\nthreshold-baseline selection, oracle diagnostics and provenance hashes."
+        },
+        {
+          "name": "infer_one",
+          "line": 108,
+          "kind": "FunctionDef",
+          "doc": "One selected transform and exactly one detector call; no labels needed.\n\nConstruct the enhancer and detector once, outside the image loop.\nInput is OpenCV BGR uint8. Callback is normally Detector.predict."
+        }
+      ],
+      "imports": [
+        "dataclasses",
+        "numpy",
+        "selight.core",
+        "sklearn.tree",
+        "typing"
+      ],
+      "module_doc": "Readable reference for the existing SELight algorithm (not a new model).\n\nRun from the project root. Reuses exactly the production image features and\ntransforms. Reference training matches experiment.train's selector search;\nuse the normal CLI to export a complete policy with hashes/provenance."
+    },
+    {
+      "path": "camera_benchmark.py",
+      "lines": 146,
+      "sha256": "84a9aeb5446915dbab81a5680eedf76ed125ee6768ba353fd5c9c04bcda69e74",
+      "definitions": [
+        {
+          "name": "simulate_input",
+          "line": 27,
+          "kind": "FunctionDef",
+          "doc": "Deterministic stress input, same pixels for every compared method.\n\nNoise is additive RGB-space Gaussian noise, NOT calibrated sensor noise.\nReturn image plus exact x/y ratios for original-coordinate restoration."
+        },
+        {
+          "name": "restore_boxes",
+          "line": 56,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "run",
+          "line": 62,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 134,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "csv",
+        "cv2",
+        "hashlib",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.data",
+        "selight.detector",
+        "selight.experiment",
+        "selight.metrics",
+        "time"
+      ],
+      "module_doc": "Controlled resolution/noise/JPEG stress test of a FROZEN SELight policy.\n\nThis simulates limited RGB inputs. It does not simulate a complete camera sensor\nor prove performance on inexpensive cameras. Test outputs never train a policy."
+    },
+    {
+      "path": "infer_photo.py",
+      "lines": 32,
+      "sha256": "8f1dc2839ac321ffef3798a7e762c37421722a64300ed5dcad0c027b0981781c",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 9,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "cv2",
+        "pathlib",
+        "selight.core",
+        "selight.detector",
+        "selight.experiment"
+      ],
+      "module_doc": "Single-photo SELight demo. Outputs detections and annotated image, not timing claims."
+    },
+    {
+      "path": "paired_ap_comparison.py",
+      "lines": 69,
+      "sha256": "04dbbc5eff78ae27223bb7b6d7d611ee6cfb509f62f38f1fe360717df60c4af4",
+      "definitions": [
+        {
+          "name": "evaluator",
+          "line": 14,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "resampled_ap",
+          "line": 32,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 41,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "contextlib",
+        "copy",
+        "io",
+        "numpy",
+        "pathlib",
+        "pycocotools.coco",
+        "pycocotools.cocoeval",
+        "selight.core"
+      ],
+      "module_doc": "Paired COCO AP bootstrap by resampling images (or declared scene clusters).\n\nReuses class/IoU matches, then recomputes dataset-level score ranking, precision\nenvelopes and AP in every resample. Does not average per-image AP values."
+    },
+    {
+      "path": "paired_comparison.py",
+      "lines": 21,
+      "sha256": "374b14f595b3b5217e8304af24d5b7e639107d9148b001b8bfa0238868ab4360",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 7,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "numpy",
+        "selight.core",
+        "selight.metrics"
+      ],
+      "module_doc": "Paired image bootstrap for F1 utility, not an AP confidence interval."
+    },
+    {
+      "path": "video_benchmark.py",
+      "lines": 41,
+      "sha256": "df89d50a7fa98914d568a65ba1294d55dcce1f7ef0b7c6d80b35a237672e69d4",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 16,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "csv",
+        "cv2",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.detector",
+        "selight.experiment",
+        "time"
+      ],
+      "module_doc": "Local-file video processing timing, excluding drawing/writing and camera/display.\n\nFrames are processed independently; repeated frames never count as independent\naccuracy samples. The supplied project clip is an ExDark image slideshow."
+    },
+    {
+      "path": "selight/__init__.py",
+      "lines": 2,
+      "sha256": "7a751da97de83f5109ca3cd1f96000bdcecbdee7e08a1933de002498283581cc",
+      "definitions": [],
+      "imports": [],
+      "module_doc": "Selective low-light enhancement research prototype."
+    },
+    {
+      "path": "selight/__main__.py",
+      "lines": 56,
+      "sha256": "b67b9ee7731fbbaf21ea55f57bad7dce0f8333269c5e852e5edf0ac05fe37275",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 5,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "core",
+        "data",
+        "experiment",
+        "json",
+        "torch"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "selight/core.py",
+      "lines": 83,
+      "sha256": "b66efa465f70cdf6377cb9c8b70114ce30810d1d4ac55a48595e8e770001123e",
+      "definitions": [
+        {
+          "name": "sha",
+          "line": 13,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "digest",
+          "line": 20,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "read_json",
+          "line": 23,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "write_json",
+          "line": 26,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "load_image",
+          "line": 30,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "Enhancer",
+          "line": 37,
+          "kind": "ClassDef",
+          "doc": null
+        },
+        {
+          "name": "features",
+          "line": 56,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "tree_route",
+          "line": 64,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "select",
+          "line": 71,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "cv2",
+        "hashlib",
+        "json",
+        "numpy",
+        "pathlib"
+      ],
+      "module_doc": "Established transforms and the proposed feature-to-route selector."
+    },
+    {
+      "path": "selight/data.py",
+      "lines": 118,
+      "sha256": "23996575939efd2968fce11ff3716454eed09af9b40410e022975c5af49a9e9f",
+      "definitions": [
+        {
+          "name": "parse_boxes",
+          "line": 10,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "index_files",
+          "line": 27,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "prepare",
+          "line": 36,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "audit",
+          "line": 91,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "preview",
+          "line": 110,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "core",
+        "cv2",
+        "numpy",
+        "pathlib"
+      ],
+      "module_doc": "Strict ExDark conversion; preserve official split and audit image content."
+    },
+    {
+      "path": "selight/detector.py",
+      "lines": 31,
+      "sha256": "bd7ac51e7c46b69a343ee7f34b5ee018aa7929283aa05eec6b28252977e84658",
+      "definitions": [
+        {
+          "name": "Detector",
+          "line": 5,
+          "kind": "ClassDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "core",
+        "pathlib",
+        "torch",
+        "ultralytics"
+      ],
+      "module_doc": "Ultralytics adapter; detector import stays optional for offline unit tests."
+    },
+    {
+      "path": "selight/experiment.py",
+      "lines": 251,
+      "sha256": "3e938c5f2d32988f55693a33e5a6ad8f1d50f75bc2118e81236eb689361f3edc",
+      "definitions": [
+        {
+          "name": "signature",
+          "line": 13,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "environment",
+          "line": 16,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "records_for",
+          "line": 32,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "warmup",
+          "line": 38,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "build_cache",
+          "line": 43,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "route_label",
+          "line": 67,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "serialize_tree",
+          "line": 72,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "train",
+          "line": 78,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "evaluate",
+          "line": 163,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "make_plot",
+          "line": 212,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "demo",
+          "line": 224,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "core",
+        "csv",
+        "cv2",
+        "data",
+        "detector",
+        "importlib.metadata",
+        "json",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "metrics",
+        "numpy",
+        "pathlib",
+        "platform",
+        "psutil",
+        "sklearn.tree",
+        "time",
+        "torch"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "selight/external.py",
+      "lines": 33,
+      "sha256": "5f80520ddf621b3468812f4dcebb18e14b250f18d91e02b780e6a4ba93347b03",
+      "definitions": [
+        {
+          "name": "ZeroDCEPP",
+          "line": 13,
+          "kind": "ClassDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "core",
+        "cv2",
+        "importlib.util",
+        "numpy",
+        "pathlib",
+        "torch"
+      ],
+      "module_doc": "Explicit adaptation of official Zero-DCE++ with its pretrained checkpoint.\n\nThe official test script crops to multiples of 12. This adapter instead replicates\nthe border to the next multiple and crops the OUTPUT to preserve every GT object.\nIt is named zero_dcepp_scale12_pad and is not an exact official test reproduction."
+    },
+    {
+      "path": "selight/metrics.py",
+      "lines": 64,
+      "sha256": "d554a6ce32dc52b6bf3d1e6cef5ab8f9553c405240b023e5d0bf3768d1a2df82",
+      "definitions": [
+        {
+          "name": "iou",
+          "line": 5,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "counts",
+          "line": 12,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "f1_counts",
+          "line": 23,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "quality",
+          "line": 26,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "summary",
+          "line": 30,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "core",
+        "numpy",
+        "pycocotools.coco",
+        "pycocotools.cocoeval"
+      ],
+      "module_doc": "Detection operating-point scores and standard COCO AP, not proxy AP."
+    },
+    {
+      "path": "scripts/build_external_report.py",
+      "lines": 119,
+      "sha256": "87656a16fd84c3914d452be1c89b4ab75fe3f00026849d049435d115af3c72d1",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 20,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "contextlib",
+        "csv",
+        "cv2",
+        "io",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "paired_ap_comparison",
+        "pathlib",
+        "scripts.render_research_documents",
+        "selight.core",
+        "selight.external",
+        "selight.metrics",
+        "sys"
+      ],
+      "module_doc": "Publish frozen external experiments into the manuscript and local showcase."
+    },
+    {
+      "path": "scripts/build_research_pack.py",
+      "lines": 254,
+      "sha256": "06a137ed3714865f5197f51156ba7f7cf243ebcbc14dc059ab21876ed14b4a96",
+      "definitions": [
+        {
+          "name": "measured",
+          "line": 33,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "figure_save",
+          "line": 38,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 44,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "ast",
+        "collections",
+        "contextlib",
+        "csv",
+        "cv2",
+        "io",
+        "matplotlib",
+        "matplotlib.patches",
+        "matplotlib.pyplot",
+        "numpy",
+        "paired_ap_comparison",
+        "pathlib",
+        "selight.core",
+        "selight.experiment",
+        "selight.external",
+        "selight.metrics"
+      ],
+      "module_doc": "Recompute stored metrics, paired intervals, figures and an auditable code map.\n\nRun AFTER scripts.research_compare. Historical predictions are re-evaluated,\nnot described as new inference. No training, test inference or source mutation."
+    },
+    {
+      "path": "scripts/development_ablations.py",
+      "lines": 43,
+      "sha256": "d2776eefe0e680033b9f58ffe9b545b47bbb67fe13c748baa375f49c5dee1600",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 12,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "contextlib",
+        "io",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.experiment",
+        "selight.metrics"
+      ],
+      "module_doc": "Train-only fitting, validation-only comparison using unchanged three-route cache."
+    },
+    {
+      "path": "scripts/evaluate_external.py",
+      "lines": 134,
+      "sha256": "80a6968d4a1668b54501620cfe27b4cb074d1a9547332d3c78409ae5784a32d6",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 26,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "contextlib",
+        "csv",
+        "cv2",
+        "io",
+        "numpy",
+        "pathlib",
+        "scripts.external_audit",
+        "selight.core",
+        "selight.detector",
+        "selight.experiment",
+        "selight.external",
+        "selight.metrics",
+        "time",
+        "ultralytics.utils"
+      ],
+      "module_doc": "Frozen external transfer comparison on human-labelled pedestrian datasets.\n\nNo fitting; external evaluation only, restricted to annotated classes. Decode, startup, metrics, drawing and writing are\noutside the synchronized processing timer. Raw repetitions remain available."
+    },
+    {
+      "path": "scripts/export_research_pdf.py",
+      "lines": 116,
+      "sha256": "e52f2ec1933c98832e3f1dee719847bed630111db03c3951dcce14c80a513d89",
+      "definitions": [
+        {
+          "name": "digest",
+          "line": 22,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "rich",
+          "line": 26,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 39,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "html",
+        "json",
+        "pathlib",
+        "pypdf",
+        "re",
+        "reportlab.lib",
+        "reportlab.lib.enums",
+        "reportlab.lib.pagesizes",
+        "reportlab.lib.styles",
+        "reportlab.pdfbase",
+        "reportlab.pdfbase.ttfonts",
+        "reportlab.platypus"
+      ],
+      "module_doc": "Export the authored, verified Markdown paper to a shareable PDF.\n\nUses reportlab and pypdf from the bundled document runtime. This is a Markdown\nexport, not a claimed compilation of paper.tex. Figures are embedded from PNGs."
+    },
+    {
+      "path": "scripts/external_audit.py",
+      "lines": 27,
+      "sha256": "c9b296fb7275a9b381d4470f2ed4d0b5fb734e7e6c2ae3eeffa9c7505e43b304",
+      "definitions": [
+        {
+          "name": "audit_external",
+          "line": 7,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "math",
+        "pathlib",
+        "selight.core"
+      ],
+      "module_doc": "Validate external human-labelled records without inventing training splits."
+    },
+    {
+      "path": "scripts/external_pilot.py",
+      "lines": 49,
+      "sha256": "3c23c3b2c1e993a2922b221dd41279094a7e8ede139ddf7a361a1cff48264f74",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 15,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "csv",
+        "cv2",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.data",
+        "selight.detector",
+        "selight.experiment",
+        "selight.external",
+        "selight.metrics",
+        "time"
+      ],
+      "module_doc": "Paired validation-only pretrained enhancer + identical frozen-detector pilot."
+    },
+    {
+      "path": "scripts/fetch_zero_dcepp.py",
+      "lines": 17,
+      "sha256": "15d5f9f8695a7cfc16e428c9c9aa338c9a12472e0c7c1bf82f512b6579762480",
+      "definitions": [],
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "urllib.parse",
+        "urllib.request"
+      ],
+      "module_doc": "Fetch pinned official research assets; no substituted architecture/checkpoint."
+    },
+    {
+      "path": "scripts/import_external_datasets.py",
+      "lines": 151,
+      "sha256": "360d07238b3e937061241ad19f098044e5d78535b5e7e5e4b19b6a3ca7480a53",
+      "definitions": [
+        {
+          "name": "fetch",
+          "line": 28,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "RemoteZip",
+          "line": 41,
+          "kind": "ClassDef",
+          "doc": null
+        },
+        {
+          "name": "member",
+          "line": 61,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "voc_boxes",
+          "line": 74,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "record",
+          "line": 91,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 95,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "concurrent.futures",
+        "cv2",
+        "hashlib",
+        "io",
+        "json",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "struct",
+        "subprocess",
+        "urllib.request",
+        "xml.etree.ElementTree",
+        "zipfile",
+        "zlib"
+      ],
+      "module_doc": "Import a fixed LLVIP visible test pilot and the official Penn-Fudan archive.\n\nLLVIP ZIP byte ranges avoid downloading infrared/train images. No fitting.\nPenn-Fudan download uses Windows system certificate trust through PowerShell."
+    },
+    {
+      "path": "scripts/render_research_documents.py",
+      "lines": 213,
+      "sha256": "806feccaf0c0b88fc96f52c8ad2cdd7f9acb797df54f9acfe65f40dfc1633c66",
+      "definitions": [
+        {
+          "name": "table",
+          "line": 17,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "tex_escape",
+          "line": 21,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "inline",
+          "line": 26,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "picture",
+          "line": 39,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "make_tex",
+          "line": 111,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 164,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "ast",
+        "html",
+        "pathlib",
+        "re",
+        "selight.core"
+      ],
+      "module_doc": "Render authored manuscript tables, standalone TeX and local HTML showcase.\n\nThe prose remains authored PAPER.md. Named table markers permit regeneration\nagainst evidence.json. TeX plots use inline picture primitives, with no external\nproject files required by the built-in standalone compiler."
+    },
+    {
+      "path": "scripts/research_compare.py",
+      "lines": 132,
+      "sha256": "cb4a1d05b61ef2f0d8d68e01f6fe5b06eb2414794ff54302e3d4578ca158ddee",
+      "definitions": [
+        {
+          "name": "main",
+          "line": 26,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "contextlib",
+        "csv",
+        "cv2",
+        "io",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.data",
+        "selight.detector",
+        "selight.experiment",
+        "selight.external",
+        "selight.metrics",
+        "time"
+      ],
+      "module_doc": "Matched validation comparison of a frozen detector and five input methods.\n\nNo fitting or test inference. Decode, startup, metrics, drawing and writing are\noutside the synchronized processing timer. Raw repetitions remain available."
+    },
+    {
+      "path": "scripts/visual_audit.py",
+      "lines": 72,
+      "sha256": "92bd0da79c3708073b7425b85688dd83004fdae94a8665a01a82ad5de781368d",
+      "definitions": [
+        {
+          "name": "tile",
+          "line": 10,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "save",
+          "line": 22,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "main",
+          "line": 27,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "argparse",
+        "cv2",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.data"
+      ],
+      "module_doc": "Perceptual duplicate candidates and validation annotation contact sheets."
+    },
+    {
+      "path": "tests/test_algorithm_reference.py",
+      "lines": 63,
+      "sha256": "95a3b6c8669c52607d4b4883366419b67846131f81912121c28fd27a1e52a4f5",
+      "definitions": [
+        {
+          "name": "fixture_cache",
+          "line": 10,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_label_matches_production",
+          "line": 23,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_margin_cost_and_tie",
+          "line": 32,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_reference_matches_exported_policy",
+          "line": 39,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_inference_runs_detector_once",
+          "line": 49,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_rejects_test_and_overlap",
+          "line": 59,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "algorithm_reference",
+        "copy",
+        "numpy",
+        "pytest",
+        "selight.core",
+        "selight.experiment"
+      ],
+      "module_doc": "Reference/production equivalence and single-call semantics, not accuracy evidence."
+    },
+    {
+      "path": "tests/test_ap_bootstrap.py",
+      "lines": 18,
+      "sha256": "1aad23c18977287dffa03728de16008c6318c5dbc41e0a097911b9782003dbfd",
+      "definitions": [
+        {
+          "name": "test_resampled_ap_matches_explicit_coco_recomputation",
+          "line": 5,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_no_annotation_resample_is_undefined",
+          "line": 16,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "paired_ap_comparison",
+        "pytest",
+        "selight.metrics"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "tests/test_camera_benchmark.py",
+      "lines": 52,
+      "sha256": "25ad13edd5ce70d06044a08f700a74780c71b75dc7fd0048f9c9c4705d1ef024",
+      "definitions": [
+        {
+          "name": "test_stress_deterministic_no_mutation",
+          "line": 9,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_restore_geometry_and_native_identity",
+          "line": 18,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_no_upsample_small_image",
+          "line": 25,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_camera_fixture",
+          "line": 30,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "camera_benchmark",
+        "cv2",
+        "numpy",
+        "selight.core",
+        "selight.data",
+        "selight.detector",
+        "selight.experiment"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "tests/test_core.py",
+      "lines": 81,
+      "sha256": "ba237d2dd41fe469540e56a38458c872c3336d454735d407e1cba253c1d2493e",
+      "definitions": [
+        {
+          "name": "cfg",
+          "line": 10,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_gamma_brightens_without_geometry_change",
+          "line": 13,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_routes_preserve_bounds",
+          "line": 19,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_extreme_images_have_finite_features",
+          "line": 24,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_class_and_duplicate_matching",
+          "line": 29,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_iou_threshold_and_confidence",
+          "line": 35,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_annotation_origin_and_multiple_classes",
+          "line": 39,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_cross_split_duplicates_rejected",
+          "line": 45,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_quality_margin_and_cost",
+          "line": 49,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_train_export_and_no_test_leakage",
+          "line": 54,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_coco_perfect_and_empty",
+          "line": 71,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_signature_checks_model_not_device",
+          "line": 78,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "json",
+        "numpy",
+        "pytest",
+        "selight.core",
+        "selight.data",
+        "selight.experiment",
+        "selight.metrics"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "tests/test_extensions.py",
+      "lines": 40,
+      "sha256": "c19af21e7be4dc839367bf810f6acc24ad52bb980fa64f229cd6723853024fd3",
+      "definitions": [
+        {
+          "name": "make_cache",
+          "line": 7,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_ablation_semantics",
+          "line": 17,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_prepare_requires_explicit_documented_deduplication",
+          "line": 29,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "cv2",
+        "numpy",
+        "pytest",
+        "selight.core",
+        "selight.data",
+        "selight.experiment"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "tests/test_external.py",
+      "lines": 15,
+      "sha256": "cea4b195b38987ad9287b7368826da8db6eb9b4e4d485a9f6e85fb2f110d876f",
+      "definitions": [
+        {
+          "name": "test_voc_inclusive_edges_preserve_full_image_box",
+          "line": 6,
+          "kind": "FunctionDef",
+          "doc": null
+        },
+        {
+          "name": "test_external_does_not_score_unannotated_classes",
+          "line": 13,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "pytest",
+        "scripts.external_audit",
+        "scripts.import_external_datasets"
+      ],
+      "module_doc": null
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "lines": 38,
+      "sha256": "f910889281112bd9857a817377a81e71fc6dce9af917a7d9080889e0b016f9a2",
+      "definitions": [
+        {
+          "name": "test_full_fixture_pipeline",
+          "line": 10,
+          "kind": "FunctionDef",
+          "doc": null
+        }
+      ],
+      "imports": [
+        "cv2",
+        "json",
+        "numpy",
+        "pathlib",
+        "selight.core",
+        "selight.data",
+        "selight.detector",
+        "selight.experiment"
+      ],
+      "module_doc": "Synthetic integration test only. Does not validate a pretrained detector."
+    }
+  ],
+  "total_python_lines": 2701,
+  "scope": "Owned Python source and tests, excluding environment and third-party code"
+}

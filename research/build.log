@@ -1,0 +1,7 @@
+Recomputed all historical gpu test metrics
+Recomputed all historical cpu test metrics
+Paired intervals: gamma [-0.020037141810237566, 0.018304038141347147]
+Paired intervals: clahe [-0.014833731408681846, 0.014877554042533223]
+Paired intervals: selector [0.0, 0.0]
+Paired intervals: zero_dcepp_scale12_pad [-0.03287817866294987, 0.015150029187002964]
+Evidence, source inventory, CSV, figures and gallery complete.

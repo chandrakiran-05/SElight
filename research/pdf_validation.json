@@ -1,0 +1,23 @@
+{
+  "pages": 11,
+  "missing_expected_text": [],
+  "source_sha256": "58ff67dc5463d1ecd41bb6708b5bbb012ec5069c38f4391515ac3d68d029e93b",
+  "pdf_sha256": "e8e03b1aa69b327c61a03805b366dface0c9f65e092dc81297908e6590cf081d",
+  "export": "ReportLab from verified Markdown, not native LaTeX compilation",
+  "requires_visual_review": false,
+  "visual_review_complete": true,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "external_results_text_verified": true
+}

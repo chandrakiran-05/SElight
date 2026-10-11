@@ -1,0 +1,16 @@
+{
+  "weights": "models/yolov8n.pt",
+  "imgsz": 640,
+  "device": "cpu",
+  "threads": 4,
+  "confidence": 0.001,
+  "operating_confidence": 0.25,
+  "nms_iou": 0.7,
+  "max_det": 100,
+  "gamma": 0.65,
+  "clahe_clip": 2.0,
+  "clahe_grid": 8,
+  "feature_size": 64,
+  "brightness_threshold": 0.30,
+  "seed": 42
+}

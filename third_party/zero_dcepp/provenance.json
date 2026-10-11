@@ -1,0 +1,26 @@
+{
+  "commit": "09f202b690f82da939b8e6ec8535960ae97ad8bd",
+  "files": {
+    "model.py": {
+      "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/Zero-DCE%2B%2B/model.py",
+      "sha256": "508ad1b0eece0b2a99503ba8b4461a9695b79ecf1b30b046be16f7aaa99c20e3",
+      "bytes": 2350
+    },
+    "lowlight_test.py.reference": {
+      "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/Zero-DCE%2B%2B/lowlight_test.py",
+      "sha256": "9b33e2fc25846226c105954de323a6fdc498549fa3de3e00fec741da92e72742",
+      "bytes": 1712
+    },
+    "Epoch99.pth": {
+      "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/Zero-DCE%2B%2B/snapshots_Zero_DCE%2B%2B/Epoch99.pth",
+      "sha256": "ca8855b90df9a80fa4195a831f33d3476b1964f787eb70602797c773067f3b84",
+      "bytes": 52395
+    },
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/README.md",
+      "sha256": "0e18a0584cf4ddc92bd16045f226b3c6f99cc623ff96ff931c3236b234f1faa3",
+      "bytes": 2553
+    }
+  },
+  "licence": "Academic research; CC BY-NC 4.0 per official README"
+}

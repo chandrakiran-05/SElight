@@ -1,0 +1,16 @@
+zero_dcepp_scale12_pad_repeat0: AP=0.83868, F1=0.77819, processing=17.40 ms
+clahe_repeat0: AP=0.84355, F1=0.76630, processing=10.38 ms
+selector_repeat0: AP=0.85362, F1=0.75536, processing=9.69 ms
+gamma_repeat0: AP=0.84840, F1=0.76979, processing=8.85 ms
+original_repeat0: AP=0.85362, F1=0.75536, processing=8.77 ms
+zero_dcepp_scale12_pad_repeat1: AP=0.83868, F1=0.77819, processing=12.91 ms
+gamma_repeat1: AP=0.84840, F1=0.76979, processing=8.83 ms
+clahe_repeat1: AP=0.84355, F1=0.76630, processing=9.77 ms
+selector_repeat1: AP=0.85362, F1=0.75536, processing=9.67 ms
+original_repeat1: AP=0.85362, F1=0.75536, processing=9.04 ms
+zero_dcepp_scale12_pad_repeat2: AP=0.83868, F1=0.77819, processing=13.65 ms
+gamma_repeat2: AP=0.84840, F1=0.76979, processing=9.74 ms
+original_repeat2: AP=0.85362, F1=0.75536, processing=8.69 ms
+clahe_repeat2: AP=0.84355, F1=0.76630, processing=9.71 ms
+selector_repeat2: AP=0.85362, F1=0.75536, processing=9.51 ms
+Comparison completed: research\experiments\penn_fudan_170_serial

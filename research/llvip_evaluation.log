@@ -1,0 +1,16 @@
+zero_dcepp_scale12_pad_repeat0: AP=0.35524, F1=0.69072, processing=30.42 ms
+clahe_repeat0: AP=0.38276, F1=0.73750, processing=16.47 ms
+selector_repeat0: AP=0.39395, F1=0.75373, processing=11.08 ms
+gamma_repeat0: AP=0.37512, F1=0.73842, processing=11.00 ms
+original_repeat0: AP=0.39395, F1=0.75373, processing=9.81 ms
+selector_repeat1: AP=0.39395, F1=0.75373, processing=11.55 ms
+zero_dcepp_scale12_pad_repeat1: AP=0.35524, F1=0.69072, processing=35.71 ms
+original_repeat1: AP=0.39395, F1=0.75373, processing=9.97 ms
+gamma_repeat1: AP=0.37512, F1=0.73842, processing=11.59 ms
+clahe_repeat1: AP=0.38276, F1=0.73750, processing=16.98 ms
+gamma_repeat2: AP=0.37512, F1=0.73842, processing=11.07 ms
+original_repeat2: AP=0.39395, F1=0.75373, processing=9.63 ms
+zero_dcepp_scale12_pad_repeat2: AP=0.35524, F1=0.69072, processing=33.91 ms
+selector_repeat2: AP=0.39395, F1=0.75373, processing=9.44 ms
+clahe_repeat2: AP=0.38276, F1=0.73750, processing=18.36 ms
+Comparison completed: research\experiments\llvip_visible_200

@@ -1,0 +1,738 @@
+{
+  "results": {
+    "zero_dcepp_scale12_pad_repeat0": {
+      "map_50_95": 0.42328453147384715,
+      "map_50": 0.719878952148053,
+      "per_class_ap": {
+        "person": 0.360515874024797,
+        "bicycle": 0.4105086743647965,
+        "car": 0.2880560060750323,
+        "motorcycle": 0.5168189501702201,
+        "bus": 0.5405231527343899
+      },
+      "mean_image_f1": 0.7683338256743829,
+      "ap_small": 0.024403724231488837,
+      "precision": 0.6778350515463918,
+      "recall": 0.6446078431372549,
+      "f1": 0.6608040201005025,
+      "tp": 263,
+      "fp": 125,
+      "fn": 145,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 33.52659700002732,
+      "p95_ms": 145.87552499988305,
+      "median_ms": 15.970750000633416,
+      "route_counts": {
+        "zero_dcepp_scale12_pad": 200
+      },
+      "cuda_peak_allocated_mib": 1046.24755859375,
+      "predictions_equal_repeat0": true
+    },
+    "clahe_repeat0": {
+      "map_50_95": 0.4309290694534284,
+      "map_50": 0.7153054376095139,
+      "per_class_ap": {
+        "person": 0.38306330254557225,
+        "bicycle": 0.42020811247646456,
+        "car": 0.31403339179272977,
+        "motorcycle": 0.513351127164274,
+        "bus": 0.5239894132881016
+      },
+      "mean_image_f1": 0.783811047157115,
+      "ap_small": 0.03376005789813952,
+      "precision": 0.6820388349514563,
+      "recall": 0.6887254901960784,
+      "f1": 0.6853658536585366,
+      "tp": 281,
+      "fp": 131,
+      "fn": 127,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 14.729549500134453,
+      "p95_ms": 45.23821999910068,
+      "median_ms": 10.507400001188216,
+      "route_counts": {
+        "clahe": 200
+      },
+      "cuda_peak_allocated_mib": 77.93212890625,
+      "predictions_equal_repeat0": true
+    },
+    "selector_repeat0": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 11.076324499990733,
+      "p95_ms": 22.032134999426482,
+      "median_ms": 9.53174999995099,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.9326171875,
+      "predictions_equal_repeat0": true
+    },
+    "gamma_repeat0": {
+      "map_50_95": 0.4301641152861014,
+      "map_50": 0.711841141776598,
+      "per_class_ap": {
+        "person": 0.3705971611554985,
+        "bicycle": 0.39795821918652485,
+        "car": 0.30483310075856945,
+        "motorcycle": 0.5179176451542509,
+        "bus": 0.559514450175663
+      },
+      "mean_image_f1": 0.7627715343374736,
+      "ap_small": 0.027976843802177884,
+      "precision": 0.6741293532338308,
+      "recall": 0.6642156862745098,
+      "f1": 0.6691358024691358,
+      "tp": 271,
+      "fp": 131,
+      "fn": 137,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 9.385916499968516,
+      "p95_ms": 15.12032499986162,
+      "median_ms": 8.301699999719858,
+      "route_counts": {
+        "gamma": 200
+      },
+      "cuda_peak_allocated_mib": 77.93310546875,
+      "predictions_equal_repeat0": true
+    },
+    "original_repeat0": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 8.476918000087608,
+      "p95_ms": 11.001769999074888,
+      "median_ms": 8.017500001187727,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.947265625,
+      "predictions_equal_repeat0": true
+    },
+    "selector_repeat1": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 10.59479650000867,
+      "p95_ms": 21.346919998541125,
+      "median_ms": 8.929800001169497,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.943359375,
+      "predictions_equal_repeat0": true
+    },
+    "zero_dcepp_scale12_pad_repeat1": {
+      "map_50_95": 0.42328453147384715,
+      "map_50": 0.719878952148053,
+      "per_class_ap": {
+        "person": 0.360515874024797,
+        "bicycle": 0.4105086743647965,
+        "car": 0.2880560060750323,
+        "motorcycle": 0.5168189501702201,
+        "bus": 0.5405231527343899
+      },
+      "mean_image_f1": 0.7683338256743829,
+      "ap_small": 0.024403724231488837,
+      "precision": 0.6778350515463918,
+      "recall": 0.6446078431372549,
+      "f1": 0.6608040201005025,
+      "tp": 263,
+      "fp": 125,
+      "fn": 145,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 29.05455299995083,
+      "p95_ms": 140.33024500076863,
+      "median_ms": 13.410550000116928,
+      "route_counts": {
+        "zero_dcepp_scale12_pad": 200
+      },
+      "cuda_peak_allocated_mib": 1046.25439453125,
+      "predictions_equal_repeat0": true
+    },
+    "original_repeat1": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 8.709321999995154,
+      "p95_ms": 11.35082499940835,
+      "median_ms": 8.253399999375688,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.9326171875,
+      "predictions_equal_repeat0": true
+    },
+    "gamma_repeat1": {
+      "map_50_95": 0.4301641152861014,
+      "map_50": 0.711841141776598,
+      "per_class_ap": {
+        "person": 0.3705971611554985,
+        "bicycle": 0.39795821918652485,
+        "car": 0.30483310075856945,
+        "motorcycle": 0.5179176451542509,
+        "bus": 0.559514450175663
+      },
+      "mean_image_f1": 0.7627715343374736,
+      "ap_small": 0.027976843802177884,
+      "precision": 0.6741293532338308,
+      "recall": 0.6642156862745098,
+      "f1": 0.6691358024691358,
+      "tp": 271,
+      "fp": 131,
+      "fn": 137,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 9.297243499895558,
+      "p95_ms": 14.022299999214725,
+      "median_ms": 8.448399998997047,
+      "route_counts": {
+        "gamma": 200
+      },
+      "cuda_peak_allocated_mib": 77.93896484375,
+      "predictions_equal_repeat0": true
+    },
+    "clahe_repeat1": {
+      "map_50_95": 0.4309290694534284,
+      "map_50": 0.7153054376095139,
+      "per_class_ap": {
+        "person": 0.38306330254557225,
+        "bicycle": 0.42020811247646456,
+        "car": 0.31403339179272977,
+        "motorcycle": 0.513351127164274,
+        "bus": 0.5239894132881016
+      },
+      "mean_image_f1": 0.783811047157115,
+      "ap_small": 0.03376005789813952,
+      "precision": 0.6820388349514563,
+      "recall": 0.6887254901960784,
+      "f1": 0.6853658536585366,
+      "tp": 281,
+      "fp": 131,
+      "fn": 127,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 15.323532999882445,
+      "p95_ms": 45.516079999197245,
+      "median_ms": 11.208549999537354,
+      "route_counts": {
+        "clahe": 200
+      },
+      "cuda_peak_allocated_mib": 77.943359375,
+      "predictions_equal_repeat0": true
+    },
+    "gamma_repeat2": {
+      "map_50_95": 0.4301641152861014,
+      "map_50": 0.711841141776598,
+      "per_class_ap": {
+        "person": 0.3705971611554985,
+        "bicycle": 0.39795821918652485,
+        "car": 0.30483310075856945,
+        "motorcycle": 0.5179176451542509,
+        "bus": 0.559514450175663
+      },
+      "mean_image_f1": 0.7627715343374736,
+      "ap_small": 0.027976843802177884,
+      "precision": 0.6741293532338308,
+      "recall": 0.6642156862745098,
+      "f1": 0.6691358024691358,
+      "tp": 271,
+      "fp": 131,
+      "fn": 137,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 9.410571000025811,
+      "p95_ms": 14.165915000194216,
+      "median_ms": 8.649549999972805,
+      "route_counts": {
+        "gamma": 200
+      },
+      "cuda_peak_allocated_mib": 77.9482421875,
+      "predictions_equal_repeat0": true
+    },
+    "original_repeat2": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 8.46153499994216,
+      "p95_ms": 10.615419998975993,
+      "median_ms": 8.147550000103365,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.92431640625,
+      "predictions_equal_repeat0": true
+    },
+    "zero_dcepp_scale12_pad_repeat2": {
+      "map_50_95": 0.42328453147384715,
+      "map_50": 0.719878952148053,
+      "per_class_ap": {
+        "person": 0.360515874024797,
+        "bicycle": 0.4105086743647965,
+        "car": 0.2880560060750323,
+        "motorcycle": 0.5168189501702201,
+        "bus": 0.5405231527343899
+      },
+      "mean_image_f1": 0.7683338256743829,
+      "ap_small": 0.024403724231488837,
+      "precision": 0.6778350515463918,
+      "recall": 0.6446078431372549,
+      "f1": 0.6608040201005025,
+      "tp": 263,
+      "fp": 125,
+      "fn": 145,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 28.099040500037518,
+      "p95_ms": 139.60115500049142,
+      "median_ms": 12.711399999716377,
+      "route_counts": {
+        "zero_dcepp_scale12_pad": 200
+      },
+      "cuda_peak_allocated_mib": 1046.25244140625,
+      "predictions_equal_repeat0": true
+    },
+    "selector_repeat2": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 11.096788499989998,
+      "p95_ms": 22.774224999193365,
+      "median_ms": 9.235500000613683,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.931640625,
+      "predictions_equal_repeat0": true
+    },
+    "clahe_repeat2": {
+      "map_50_95": 0.4309290694534284,
+      "map_50": 0.7153054376095139,
+      "per_class_ap": {
+        "person": 0.38306330254557225,
+        "bicycle": 0.42020811247646456,
+        "car": 0.31403339179272977,
+        "motorcycle": 0.513351127164274,
+        "bus": 0.5239894132881016
+      },
+      "mean_image_f1": 0.783811047157115,
+      "ap_small": 0.03376005789813952,
+      "precision": 0.6820388349514563,
+      "recall": 0.6887254901960784,
+      "f1": 0.6853658536585366,
+      "tp": 281,
+      "fp": 131,
+      "fn": 127,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 15.508471499915686,
+      "p95_ms": 43.84513000077275,
+      "median_ms": 11.23379999989993,
+      "route_counts": {
+        "clahe": 200
+      },
+      "cuda_peak_allocated_mib": 77.92724609375,
+      "predictions_equal_repeat0": true
+    }
+  },
+  "aggregate": {
+    "original": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 8.54925833334164,
+      "p95_ms": 10.979974999099793,
+      "median_ms": 8.138850000250386,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.947265625,
+      "predictions_equal_repeat0": true,
+      "repeat_means_ms": [
+        8.476918000087608,
+        8.709321999995154,
+        8.46153499994216
+      ],
+      "accuracy_repeats_identical": true,
+      "accuracy_source": "repeat0; timing repetitions are not independent accuracy samples"
+    },
+    "gamma": {
+      "map_50_95": 0.4301641152861014,
+      "map_50": 0.711841141776598,
+      "per_class_ap": {
+        "person": 0.3705971611554985,
+        "bicycle": 0.39795821918652485,
+        "car": 0.30483310075856945,
+        "motorcycle": 0.5179176451542509,
+        "bus": 0.559514450175663
+      },
+      "mean_image_f1": 0.7627715343374736,
+      "ap_small": 0.027976843802177884,
+      "precision": 0.6741293532338308,
+      "recall": 0.6642156862745098,
+      "f1": 0.6691358024691358,
+      "tp": 271,
+      "fp": 131,
+      "fn": 137,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 9.364576999963296,
+      "p95_ms": 14.783859999079139,
+      "median_ms": 8.45240000035119,
+      "route_counts": {
+        "gamma": 200
+      },
+      "cuda_peak_allocated_mib": 77.93310546875,
+      "predictions_equal_repeat0": true,
+      "repeat_means_ms": [
+        9.385916499968516,
+        9.297243499895558,
+        9.410571000025811
+      ],
+      "accuracy_repeats_identical": true,
+      "accuracy_source": "repeat0; timing repetitions are not independent accuracy samples"
+    },
+    "clahe": {
+      "map_50_95": 0.4309290694534284,
+      "map_50": 0.7153054376095139,
+      "per_class_ap": {
+        "person": 0.38306330254557225,
+        "bicycle": 0.42020811247646456,
+        "car": 0.31403339179272977,
+        "motorcycle": 0.513351127164274,
+        "bus": 0.5239894132881016
+      },
+      "mean_image_f1": 0.783811047157115,
+      "ap_small": 0.03376005789813952,
+      "precision": 0.6820388349514563,
+      "recall": 0.6887254901960784,
+      "f1": 0.6853658536585366,
+      "tp": 281,
+      "fp": 131,
+      "fn": 127,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 15.187184666644194,
+      "p95_ms": 45.205424999039664,
+      "median_ms": 10.973750000630389,
+      "route_counts": {
+        "clahe": 200
+      },
+      "cuda_peak_allocated_mib": 77.93212890625,
+      "predictions_equal_repeat0": true,
+      "repeat_means_ms": [
+        14.729549500134453,
+        15.323532999882445,
+        15.508471499915686
+      ],
+      "accuracy_repeats_identical": true,
+      "accuracy_source": "repeat0; timing repetitions are not independent accuracy samples"
+    },
+    "selector": {
+      "map_50_95": 0.43019052154952475,
+      "map_50": 0.7198728503026073,
+      "per_class_ap": {
+        "person": 0.3796978034732956,
+        "bicycle": 0.38084433665163286,
+        "car": 0.31936967184736315,
+        "motorcycle": 0.5279863733397805,
+        "bus": 0.5430544224355517
+      },
+      "mean_image_f1": 0.7493095870325892,
+      "ap_small": 0.028653170753679336,
+      "precision": 0.6707616707616708,
+      "recall": 0.6691176470588235,
+      "f1": 0.6699386503067485,
+      "tp": 273,
+      "fp": 134,
+      "fn": 135,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 10.922636499996466,
+      "p95_ms": 21.89538000075117,
+      "median_ms": 9.199100000842009,
+      "route_counts": {
+        "original": 200
+      },
+      "cuda_peak_allocated_mib": 77.9326171875,
+      "predictions_equal_repeat0": true,
+      "repeat_means_ms": [
+        11.076324499990733,
+        10.59479650000867,
+        11.096788499989998
+      ],
+      "accuracy_repeats_identical": true,
+      "accuracy_source": "repeat0; timing repetitions are not independent accuracy samples"
+    },
+    "zero_dcepp_scale12_pad": {
+      "map_50_95": 0.42328453147384715,
+      "map_50": 0.719878952148053,
+      "per_class_ap": {
+        "person": 0.360515874024797,
+        "bicycle": 0.4105086743647965,
+        "car": 0.2880560060750323,
+        "motorcycle": 0.5168189501702201,
+        "bus": 0.5405231527343899
+      },
+      "mean_image_f1": 0.7683338256743829,
+      "ap_small": 0.024403724231488837,
+      "precision": 0.6778350515463918,
+      "recall": 0.6446078431372549,
+      "f1": 0.6608040201005025,
+      "tp": 263,
+      "fp": 125,
+      "fn": 145,
+      "images": 200,
+      "note": "AP -1 means no eligible annotations; AP is COCO style on the declared five-class subset.",
+      "mean_ms": 30.22673016667189,
+      "p95_ms": 140.5662249987472,
+      "median_ms": 13.97369999995135,
+      "route_counts": {
+        "zero_dcepp_scale12_pad": 200
+      },
+      "cuda_peak_allocated_mib": 1046.24755859375,
+      "predictions_equal_repeat0": true,
+      "repeat_means_ms": [
+        33.52659700002732,
+        29.05455299995083,
+        28.099040500037518
+      ],
+      "accuracy_repeats_identical": true,
+      "accuracy_source": "repeat0; timing repetitions are not independent accuracy samples"
+    }
+  },
+  "manifest_hash": "a438c7f4054b6d72a669d6e2765547602d4483d5adadee4256587572012dc14a",
+  "policy_hash": "cd3edd7b3bc39dfb124b91f37b2df81081e7de318d070886e0cd419474084820",
+  "weights_hash": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.11",
+    "config": {
+      "weights": "models/yolov8n.pt",
+      "imgsz": 640,
+      "device": 0,
+      "threads": 4,
+      "confidence": 0.001,
+      "operating_confidence": 0.25,
+      "nms_iou": 0.7,
+      "max_det": 100,
+      "gamma": 0.65,
+      "clahe_clip": 2.0,
+      "clahe_grid": 8,
+      "feature_size": 64,
+      "brightness_threshold": 0.3,
+      "seed": 42
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "opencv-python": "4.11.0.86",
+      "scikit-learn": "1.7.2",
+      "torch": "2.6.0+cu124",
+      "torchvision": "0.21.0+cu124",
+      "ultralytics": "8.4.171",
+      "pycocotools": "2.0.11"
+    },
+    "code_hashes": {
+      "core.py": "b66efa465f70cdf6377cb9c8b70114ce30810d1d4ac55a48595e8e770001123e",
+      "data.py": "23996575939efd2968fce11ff3716454eed09af9b40410e022975c5af49a9e9f",
+      "detector.py": "bd7ac51e7c46b69a343ee7f34b5ee018aa7929283aa05eec6b28252977e84658",
+      "experiment.py": "3e938c5f2d32988f55693a33e5a6ad8f1d50f75bc2118e81236eb689361f3edc",
+      "external.py": "5f80520ddf621b3468812f4dcebb18e14b250f18d91e02b780e6a4ba93347b03",
+      "metrics.py": "d554a6ce32dc52b6bf3d1e6cef5ab8f9553c405240b023e5d0bf3768d1a2df82",
+      "__init__.py": "7a751da97de83f5109ca3cd1f96000bdcecbdee7e08a1933de002498283581cc",
+      "__main__.py": "b67b9ee7731fbbaf21ea55f57bad7dce0f8333269c5e852e5edf0ac05fe37275"
+    },
+    "opencv_threads": 4,
+    "cuda_available": true,
+    "torch_cuda_build": "12.4",
+    "torch_threads": 4,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "dataset_audit": {
+    "train": {
+      "images": 2993,
+      "boxes": 5783,
+      "class_counts": [
+        3264,
+        459,
+        1238,
+        489,
+        333
+      ]
+    },
+    "val": {
+      "images": 1792,
+      "boxes": 3482,
+      "class_counts": [
+        1939,
+        236,
+        761,
+        340,
+        206
+      ]
+    },
+    "test": {
+      "images": 2560,
+      "boxes": 3976,
+      "class_counts": [
+        2234,
+        418,
+        918,
+        242,
+        164
+      ]
+    }
+  },
+  "split": "val",
+  "pilot_limit": 200,
+  "repeats": 3,
+  "external_provenance": {
+    "commit": "09f202b690f82da939b8e6ec8535960ae97ad8bd",
+    "files": {
+      "model.py": {
+        "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/Zero-DCE%2B%2B/model.py",
+        "sha256": "508ad1b0eece0b2a99503ba8b4461a9695b79ecf1b30b046be16f7aaa99c20e3",
+        "bytes": 2350
+      },
+      "lowlight_test.py.reference": {
+        "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/Zero-DCE%2B%2B/lowlight_test.py",
+        "sha256": "9b33e2fc25846226c105954de323a6fdc498549fa3de3e00fec741da92e72742",
+        "bytes": 1712
+      },
+      "Epoch99.pth": {
+        "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/Zero-DCE%2B%2B/snapshots_Zero_DCE%2B%2B/Epoch99.pth",
+        "sha256": "ca8855b90df9a80fa4195a831f33d3476b1964f787eb70602797c773067f3b84",
+        "bytes": 52395
+      },
+      "README.md": {
+        "url": "https://raw.githubusercontent.com/Li-Chongyi/Zero-DCE_extension/09f202b690f82da939b8e6ec8535960ae97ad8bd/README.md",
+        "sha256": "0e18a0584cf4ddc92bd16045f226b3c6f99cc623ff96ff931c3236b234f1faa3",
+        "bytes": 2553
+      }
+    },
+    "licence": "Academic research; CC BY-NC 4.0 per official README"
+  },
+  "selector_predictions_equal_original": true,
+  "timing_scope": "Synchronized processing: selection/enhancement, transfers, uint8 quantization, detector; excludes decode/startup/metrics/rendering/writing/acquisition",
+  "adaptation": "Official Zero-DCE++ scale12; replicate-pad input, crop output; not official input-crop protocol",
+  "methodology": "Same images, annotations, detector/checkpoint, FP32, thresholds; randomized method and image order; 10 warmups per method; no training or test inference"
+}

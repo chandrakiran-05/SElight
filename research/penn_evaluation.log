@@ -1,0 +1,16 @@
+zero_dcepp_scale12_pad_repeat0: AP=0.83868, F1=0.77819, processing=20.32 ms
+clahe_repeat0: AP=0.84355, F1=0.76630, processing=12.86 ms
+selector_repeat0: AP=0.85362, F1=0.75536, processing=11.54 ms
+gamma_repeat0: AP=0.84840, F1=0.76979, processing=11.59 ms
+original_repeat0: AP=0.85362, F1=0.75536, processing=12.89 ms
+zero_dcepp_scale12_pad_repeat1: AP=0.83868, F1=0.77819, processing=17.46 ms
+gamma_repeat1: AP=0.84840, F1=0.76979, processing=12.59 ms
+clahe_repeat1: AP=0.84355, F1=0.76630, processing=11.77 ms
+selector_repeat1: AP=0.85362, F1=0.75536, processing=12.63 ms
+original_repeat1: AP=0.85362, F1=0.75536, processing=10.62 ms
+zero_dcepp_scale12_pad_repeat2: AP=0.83868, F1=0.77819, processing=13.63 ms
+gamma_repeat2: AP=0.84840, F1=0.76979, processing=11.39 ms
+original_repeat2: AP=0.85362, F1=0.75536, processing=11.18 ms
+clahe_repeat2: AP=0.84355, F1=0.76630, processing=14.18 ms
+selector_repeat2: AP=0.85362, F1=0.75536, processing=15.07 ms
+Comparison completed: research\experiments\penn_fudan_170

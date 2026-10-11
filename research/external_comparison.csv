@@ -1,0 +1,11 @@
+Dataset,Images,Method,Person AP50:95 %,Person AP50 %,Micro F1,Mean ms,P95 ms
+LLVIP visible test pilot,200,Original,39.395,74.638,0.7537,8.50,10.52
+LLVIP visible test pilot,200,Gamma,37.512,70.346,0.7384,10.23,15.45
+LLVIP visible test pilot,200,CLAHE,38.276,72.408,0.7375,17.21,22.25
+LLVIP visible test pilot,200,SELight,39.395,74.638,0.7537,9.70,11.50
+LLVIP visible test pilot,200,Zero-DCE++ (adapt.),35.524,65.122,0.6907,30.19,35.86
+Penn-Fudan daylight control,170,Original,85.362,96.844,0.7554,8.84,10.82
+Penn-Fudan daylight control,170,Gamma,84.840,96.848,0.7698,9.14,11.31
+Penn-Fudan daylight control,170,CLAHE,84.355,96.825,0.7663,9.95,14.92
+Penn-Fudan daylight control,170,SELight,85.362,96.844,0.7554,9.62,11.84
+Penn-Fudan daylight control,170,Zero-DCE++ (adapt.),83.868,96.736,0.7782,14.66,20.75

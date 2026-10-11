@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "LLVIP visible test pilot",
+    "id": "llvip/230171",
+    "file": "figures/external_llvip_230171_0.png",
+    "selection": "Lowest original F1"
+  },
+  {
+    "dataset": "LLVIP visible test pilot",
+    "id": "llvip/190537",
+    "file": "figures/external_llvip_190537_1.png",
+    "selection": "Largest Zero-DCE++ minus original F1 (may still be nonpositive)"
+  },
+  {
+    "dataset": "Penn-Fudan daylight control",
+    "id": "penn_fudan/PennPed00063",
+    "file": "figures/external_penn_fudan_PennPed00063_0.png",
+    "selection": "Lowest original F1"
+  },
+  {
+    "dataset": "Penn-Fudan daylight control",
+    "id": "penn_fudan/PennPed00028",
+    "file": "figures/external_penn_fudan_PennPed00028_1.png",
+    "selection": "Largest Zero-DCE++ minus original F1 (may still be nonpositive)"
+  }
+]

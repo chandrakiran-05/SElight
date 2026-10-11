@@ -1,0 +1,4502 @@
+{
+  "records": [
+    {
+      "id": "penn_fudan/FudanPed00001",
+      "path": "FudanPed00001.png",
+      "width": 559,
+      "height": 536,
+      "boxes": [
+        [
+          0,
+          159,
+          181,
+          302,
+          431
+        ],
+        [
+          0,
+          419,
+          170,
+          535,
+          486
+        ]
+      ],
+      "sha256": "130e9f9121b88ab69105f1685ce17625e97d0ef590adb9b9f076f62fc08b3343"
+    },
+    {
+      "id": "penn_fudan/FudanPed00002",
+      "path": "FudanPed00002.png",
+      "width": 455,
+      "height": 414,
+      "boxes": [
+        [
+          0,
+          67,
+          92,
+          191,
+          380
+        ]
+      ],
+      "sha256": "42f94e40ca5857687be170ecdebef0ee41094e5386160e0c756f0c94a735d39e"
+    },
+    {
+      "id": "penn_fudan/FudanPed00003",
+      "path": "FudanPed00003.png",
+      "width": 479,
+      "height": 445,
+      "boxes": [
+        [
+          0,
+          292,
+          134,
+          447,
+          421
+        ]
+      ],
+      "sha256": "b03d3033f65a03c20476479d2ae76cf8d3156550da005e92fb101dcd413ec75f"
+    },
+    {
+      "id": "penn_fudan/FudanPed00004",
+      "path": "FudanPed00004.png",
+      "width": 396,
+      "height": 397,
+      "boxes": [
+        [
+          0,
+          167,
+          59,
+          324,
+          338
+        ],
+        [
+          0,
+          8,
+          60,
+          48,
+          180
+        ]
+      ],
+      "sha256": "6fe1dd2796d013a02c7ca19d4907b6463015769ff9b43ba5641ab924dbbd53eb"
+    },
+    {
+      "id": "penn_fudan/FudanPed00005",
+      "path": "FudanPed00005.png",
+      "width": 335,
+      "height": 344,
+      "boxes": [
+        [
+          0,
+          187,
+          58,
+          320,
+          336
+        ],
+        [
+          0,
+          1,
+          52,
+          40,
+          158
+        ]
+      ],
+      "sha256": "4de7a665b06b680c715c2d6941611bb372ac0c33d98a09ac1673cbe6af1a66f7"
+    },
+    {
+      "id": "penn_fudan/FudanPed00006",
+      "path": "FudanPed00006.png",
+      "width": 385,
+      "height": 426,
+      "boxes": [
+        [
+          0,
+          207,
+          107,
+          346,
+          385
+        ],
+        [
+          0,
+          1,
+          107,
+          87,
+          384
+        ]
+      ],
+      "sha256": "bb8100d15bf8b02471d92857749884e5d629f44143a3a5e44d2b267a9417cb3f"
+    },
+    {
+      "id": "penn_fudan/FudanPed00007",
+      "path": "FudanPed00007.png",
+      "width": 539,
+      "height": 381,
+      "boxes": [
+        [
+          0,
+          111,
+          68,
+          218,
+          346
+        ],
+        [
+          0,
+          377,
+          75,
+          529,
+          377
+        ],
+        [
+          0,
+          316,
+          107,
+          347,
+          192
+        ]
+      ],
+      "sha256": "7b5b874dc8940fc62afe7fb57b8e99dccc8908c8e8177609afdc1d5436c353a7"
+    },
+    {
+      "id": "penn_fudan/FudanPed00008",
+      "path": "FudanPed00008.png",
+      "width": 388,
+      "height": 454,
+      "boxes": [
+        [
+          0,
+          227,
+          157,
+          370,
+          436
+        ],
+        [
+          0,
+          38,
+          178,
+          115,
+          363
+        ]
+      ],
+      "sha256": "4c3f3a2bbd2632442d3531fe3ce4299bfadd8e4c65a0d1df8d328ca97cd223ec"
+    },
+    {
+      "id": "penn_fudan/FudanPed00009",
+      "path": "FudanPed00009.png",
+      "width": 465,
+      "height": 441,
+      "boxes": [
+        [
+          0,
+          305,
+          137,
+          453,
+          430
+        ],
+        [
+          0,
+          156,
+          123,
+          298,
+          398
+        ]
+      ],
+      "sha256": "2bcd3aae083b5601ba47decbf73a23f6170334a772af6de989cb56eb681a2cc1"
+    },
+    {
+      "id": "penn_fudan/FudanPed00010",
+      "path": "FudanPed00010.png",
+      "width": 411,
+      "height": 393,
+      "boxes": [
+        [
+          0,
+          280,
+          89,
+          401,
+          374
+        ]
+      ],
+      "sha256": "651f9c4ce9ab056f3ce94c2b1159218a385ab45f33bc124ab2e5d29115dd0315"
+    },
+    {
+      "id": "penn_fudan/FudanPed00011",
+      "path": "FudanPed00011.png",
+      "width": 459,
+      "height": 420,
+      "boxes": [
+        [
+          0,
+          277,
+          111,
+          438,
+          394
+        ]
+      ],
+      "sha256": "51dab61023b536510ba333c181384e2e41fcaf270a964889efbfc96ee79d72db"
+    },
+    {
+      "id": "penn_fudan/FudanPed00012",
+      "path": "FudanPed00012.png",
+      "width": 468,
+      "height": 384,
+      "boxes": [
+        [
+          0,
+          158,
+          70,
+          295,
+          361
+        ],
+        [
+          0,
+          327,
+          57,
+          439,
+          327
+        ]
+      ],
+      "sha256": "4dbcdc27ce21b58bd6666a50c396b58ceff428bfb7106c6147605f33dbc6b278"
+    },
+    {
+      "id": "penn_fudan/FudanPed00013",
+      "path": "FudanPed00013.png",
+      "width": 652,
+      "height": 498,
+      "boxes": [
+        [
+          0,
+          388,
+          192,
+          554,
+          476
+        ]
+      ],
+      "sha256": "b3e23ae41d57b2fb4803b0202ba384f556d2b2eadca71d97b03000867a79bd6d"
+    },
+    {
+      "id": "penn_fudan/FudanPed00014",
+      "path": "FudanPed00014.png",
+      "width": 456,
+      "height": 383,
+      "boxes": [
+        [
+          0,
+          233,
+          85,
+          405,
+          367
+        ]
+      ],
+      "sha256": "462eff93c4c491fb20e1e01e5949dcc27b93d6421507a6454356578040c73ce6"
+    },
+    {
+      "id": "penn_fudan/FudanPed00015",
+      "path": "FudanPed00015.png",
+      "width": 336,
+      "height": 349,
+      "boxes": [
+        [
+          0,
+          18,
+          42,
+          174,
+          327
+        ]
+      ],
+      "sha256": "4cc05505e799e564dbf025cccbeb36698ac959d9f743bb383574e76f1c0d0619"
+    },
+    {
+      "id": "penn_fudan/FudanPed00016",
+      "path": "FudanPed00016.png",
+      "width": 544,
+      "height": 425,
+      "boxes": [
+        [
+          0,
+          79,
+          85,
+          205,
+          383
+        ],
+        [
+          0,
+          278,
+          93,
+          400,
+          361
+        ],
+        [
+          0,
+          410,
+          100,
+          495,
+          378
+        ]
+      ],
+      "sha256": "3821e9ed61b299c3ca31f761f181e1791d898359406adb66fc66d65fa49a6388"
+    },
+    {
+      "id": "penn_fudan/FudanPed00017",
+      "path": "FudanPed00017.png",
+      "width": 266,
+      "height": 342,
+      "boxes": [
+        [
+          0,
+          114,
+          47,
+          244,
+          332
+        ]
+      ],
+      "sha256": "dbd67282eb910f4b5ef412e1a8255fc83cf40044ea0d4dff7c12c09c231eeb66"
+    },
+    {
+      "id": "penn_fudan/FudanPed00018",
+      "path": "FudanPed00018.png",
+      "width": 253,
+      "height": 323,
+      "boxes": [
+        [
+          0,
+          19,
+          18,
+          126,
+          304
+        ]
+      ],
+      "sha256": "503db5cbf8a4d2f68e7a191656320163a74b0d0a7e7a0de0bc7645c7330379e6"
+    },
+    {
+      "id": "penn_fudan/FudanPed00019",
+      "path": "FudanPed00019.png",
+      "width": 497,
+      "height": 442,
+      "boxes": [
+        [
+          0,
+          6,
+          134,
+          142,
+          389
+        ],
+        [
+          0,
+          193,
+          122,
+          339,
+          421
+        ]
+      ],
+      "sha256": "95b0406612cd4e8ad28200d0f3d00c97bc71b0e90ca03bea1dbc34ec362aa5e7"
+    },
+    {
+      "id": "penn_fudan/FudanPed00020",
+      "path": "FudanPed00020.png",
+      "width": 555,
+      "height": 417,
+      "boxes": [
+        [
+          0,
+          338,
+          98,
+          508,
+          381
+        ]
+      ],
+      "sha256": "bc12e150a972308d87356e57f5e0aea246b18c4dd99826a581729a5e8686b6a2"
+    },
+    {
+      "id": "penn_fudan/FudanPed00021",
+      "path": "FudanPed00021.png",
+      "width": 490,
+      "height": 378,
+      "boxes": [
+        [
+          0,
+          323,
+          75,
+          470,
+          367
+        ],
+        [
+          0,
+          233,
+          92,
+          268,
+          167
+        ],
+        [
+          0,
+          46,
+          94,
+          69,
+          160
+        ]
+      ],
+      "sha256": "f77febed0b58c93b7d17c1d75b41b79008bc9fc119b455d3a5e0716093456802"
+    },
+    {
+      "id": "penn_fudan/FudanPed00022",
+      "path": "FudanPed00022.png",
+      "width": 536,
+      "height": 465,
+      "boxes": [
+        [
+          0,
+          111,
+          168,
+          209,
+          449
+        ],
+        [
+          0,
+          396,
+          170,
+          514,
+          455
+        ]
+      ],
+      "sha256": "90b0d600f87345555e4264e55137389ddb8a75e847b1828d13e31de5f812c45e"
+    },
+    {
+      "id": "penn_fudan/FudanPed00023",
+      "path": "FudanPed00023.png",
+      "width": 376,
+      "height": 378,
+      "boxes": [
+        [
+          0,
+          201,
+          83,
+          341,
+          366
+        ]
+      ],
+      "sha256": "facdeafe8142db71085f3ae86c811fecd9a3aa00e0cd419ae88b00dbf93b5491"
+    },
+    {
+      "id": "penn_fudan/FudanPed00024",
+      "path": "FudanPed00024.png",
+      "width": 479,
+      "height": 378,
+      "boxes": [
+        [
+          0,
+          102,
+          83,
+          270,
+          370
+        ]
+      ],
+      "sha256": "90a68f6a089628fd1dac8b15c931a3030a5c6f9eed32a5283c8ae08a31c3271e"
+    },
+    {
+      "id": "penn_fudan/FudanPed00025",
+      "path": "FudanPed00025.png",
+      "width": 425,
+      "height": 369,
+      "boxes": [
+        [
+          0,
+          225,
+          68,
+          396,
+          354
+        ],
+        [
+          0,
+          43,
+          86,
+          94,
+          256
+        ],
+        [
+          0,
+          127,
+          73,
+          189,
+          262
+        ],
+        [
+          0,
+          179,
+          52,
+          228,
+          255
+        ],
+        [
+          0,
+          212,
+          72,
+          273,
+          262
+        ],
+        [
+          0,
+          313,
+          61,
+          383,
+          266
+        ]
+      ],
+      "sha256": "714c75273275f6ad31f30063fb241b26fa2a8ac853b14795b220ebd38ee1d805"
+    },
+    {
+      "id": "penn_fudan/FudanPed00026",
+      "path": "FudanPed00026.png",
+      "width": 440,
+      "height": 427,
+      "boxes": [
+        [
+          0,
+          43,
+          77,
+          150,
+          389
+        ],
+        [
+          0,
+          184,
+          88,
+          279,
+          373
+        ]
+      ],
+      "sha256": "7a108cfe65ba5c2c89ea0400095685811854d78c618a39cd6298d183666c8780"
+    },
+    {
+      "id": "penn_fudan/FudanPed00027",
+      "path": "FudanPed00027.png",
+      "width": 302,
+      "height": 363,
+      "boxes": [
+        [
+          0,
+          103,
+          44,
+          253,
+          328
+        ]
+      ],
+      "sha256": "218b49f3e50f698aa4920a6147d78663bd3dae53a8e35d0c9c1c1eaf6480eb43"
+    },
+    {
+      "id": "penn_fudan/FudanPed00028",
+      "path": "FudanPed00028.png",
+      "width": 317,
+      "height": 345,
+      "boxes": [
+        [
+          0,
+          6,
+          15,
+          149,
+          303
+        ],
+        [
+          0,
+          185,
+          17,
+          316,
+          321
+        ]
+      ],
+      "sha256": "1ec63cb8a132e1a309aee66763940a15c556f91a1fd32a72e4c7ec5b7de009a3"
+    },
+    {
+      "id": "penn_fudan/FudanPed00029",
+      "path": "FudanPed00029.png",
+      "width": 435,
+      "height": 404,
+      "boxes": [
+        [
+          0,
+          245,
+          71,
+          368,
+          351
+        ]
+      ],
+      "sha256": "85798d75e2f35b675b86c029decdf886ef4b0122fba00238c4441136930d81cc"
+    },
+    {
+      "id": "penn_fudan/FudanPed00030",
+      "path": "FudanPed00030.png",
+      "width": 462,
+      "height": 387,
+      "boxes": [
+        [
+          0,
+          58,
+          84,
+          208,
+          375
+        ]
+      ],
+      "sha256": "e3231cb29908a7f441a52883770a72bbfd44c56b5f7223fe00bfad757dd41a7b"
+    },
+    {
+      "id": "penn_fudan/FudanPed00031",
+      "path": "FudanPed00031.png",
+      "width": 569,
+      "height": 430,
+      "boxes": [
+        [
+          0,
+          297,
+          121,
+          444,
+          408
+        ]
+      ],
+      "sha256": "07895e88c4b37891f1e10581deef07760649ef806b7e50943b85920ba8e6ac05"
+    },
+    {
+      "id": "penn_fudan/FudanPed00032",
+      "path": "FudanPed00032.png",
+      "width": 608,
+      "height": 474,
+      "boxes": [
+        [
+          0,
+          455,
+          161,
+          573,
+          453
+        ]
+      ],
+      "sha256": "ba975b6872be7e71a450a23551d214e851fe6c2a67174a852225e0f64c07c6d9"
+    },
+    {
+      "id": "penn_fudan/FudanPed00033",
+      "path": "FudanPed00033.png",
+      "width": 396,
+      "height": 357,
+      "boxes": [
+        [
+          0,
+          164,
+          52,
+          304,
+          346
+        ]
+      ],
+      "sha256": "3257fc93e746e2258ff273e4110c3ab0ce1f5867f472a69acf536f585f9f4509"
+    },
+    {
+      "id": "penn_fudan/FudanPed00034",
+      "path": "FudanPed00034.png",
+      "width": 309,
+      "height": 351,
+      "boxes": [
+        [
+          0,
+          110,
+          36,
+          254,
+          330
+        ]
+      ],
+      "sha256": "fd3a874d822f03357cd213696f583bf990d50ee7a68463e5118c3b7a9b60d666"
+    },
+    {
+      "id": "penn_fudan/FudanPed00035",
+      "path": "FudanPed00035.png",
+      "width": 292,
+      "height": 349,
+      "boxes": [
+        [
+          0,
+          63,
+          38,
+          195,
+          331
+        ]
+      ],
+      "sha256": "84b4674f7e64c7a857a8ef2e9ff960cee65e375691c1a1e7e688b020ba019e19"
+    },
+    {
+      "id": "penn_fudan/FudanPed00036",
+      "path": "FudanPed00036.png",
+      "width": 1017,
+      "height": 444,
+      "boxes": [
+        [
+          0,
+          130,
+          97,
+          279,
+          394
+        ],
+        [
+          0,
+          801,
+          119,
+          937,
+          381
+        ],
+        [
+          0,
+          243,
+          132,
+          330,
+          363
+        ],
+        [
+          0,
+          725,
+          144,
+          789,
+          345
+        ]
+      ],
+      "sha256": "5385c270c96aa38f1efcf6107f74f107d4090937f20686fadd1a457fe0508357"
+    },
+    {
+      "id": "penn_fudan/FudanPed00037",
+      "path": "FudanPed00037.png",
+      "width": 423,
+      "height": 361,
+      "boxes": [
+        [
+          0,
+          258,
+          62,
+          415,
+          349
+        ],
+        [
+          0,
+          189,
+          97,
+          209,
+          170
+        ]
+      ],
+      "sha256": "25b65868cf25c4279bcf9550567023f4a44cd349930ddc119fdd3f83f2ed3d0c"
+    },
+    {
+      "id": "penn_fudan/FudanPed00038",
+      "path": "FudanPed00038.png",
+      "width": 422,
+      "height": 346,
+      "boxes": [
+        [
+          0,
+          218,
+          43,
+          400,
+          331
+        ]
+      ],
+      "sha256": "f1bc735cf431e6238445ff2e85a0ad76c64a16cc8c3ef77a986cf674bdd65109"
+    },
+    {
+      "id": "penn_fudan/FudanPed00039",
+      "path": "FudanPed00039.png",
+      "width": 493,
+      "height": 487,
+      "boxes": [
+        [
+          0,
+          136,
+          136,
+          199,
+          311
+        ],
+        [
+          0,
+          230,
+          129,
+          331,
+          410
+        ]
+      ],
+      "sha256": "7eeae79042f8f00c22658834e0d177eb0c9dd5ea1019cbde3dd4c5083786cb59"
+    },
+    {
+      "id": "penn_fudan/FudanPed00040",
+      "path": "FudanPed00040.png",
+      "width": 550,
+      "height": 482,
+      "boxes": [
+        [
+          0,
+          200,
+          156,
+          279,
+          437
+        ],
+        [
+          0,
+          278,
+          171,
+          377,
+          430
+        ]
+      ],
+      "sha256": "6b90d12818232a8b5ea8b4262d48f7baac29f9dcffb802812ca3a02acd499845"
+    },
+    {
+      "id": "penn_fudan/FudanPed00041",
+      "path": "FudanPed00041.png",
+      "width": 552,
+      "height": 507,
+      "boxes": [
+        [
+          0,
+          350,
+          160,
+          439,
+          437
+        ],
+        [
+          0,
+          283,
+          180,
+          357,
+          439
+        ],
+        [
+          0,
+          41,
+          185,
+          110,
+          388
+        ]
+      ],
+      "sha256": "95997257f63267427f726e6f4e809acefc7993fa943aaf7effd9070d145bba99"
+    },
+    {
+      "id": "penn_fudan/FudanPed00042",
+      "path": "FudanPed00042.png",
+      "width": 588,
+      "height": 547,
+      "boxes": [
+        [
+          0,
+          158,
+          185,
+          250,
+          470
+        ],
+        [
+          0,
+          287,
+          155,
+          392,
+          449
+        ]
+      ],
+      "sha256": "257169d70d4b46d3ecc64bdc7287af287ed43bdeec48e1ae95e17506e63548bb"
+    },
+    {
+      "id": "penn_fudan/FudanPed00043",
+      "path": "FudanPed00043.png",
+      "width": 493,
+      "height": 518,
+      "boxes": [
+        [
+          0,
+          63,
+          138,
+          147,
+          426
+        ],
+        [
+          0,
+          155,
+          138,
+          248,
+          435
+        ],
+        [
+          0,
+          260,
+          127,
+          358,
+          431
+        ]
+      ],
+      "sha256": "af2dfd6ca0e27005d25d563b27b9a44229b7da7be1be2c766b22eb7c016ddd59"
+    },
+    {
+      "id": "penn_fudan/FudanPed00044",
+      "path": "FudanPed00044.png",
+      "width": 521,
+      "height": 494,
+      "boxes": [
+        [
+          0,
+          245,
+          169,
+          340,
+          462
+        ],
+        [
+          0,
+          336,
+          174,
+          426,
+          464
+        ],
+        [
+          0,
+          36,
+          128,
+          181,
+          492
+        ],
+        [
+          0,
+          435,
+          156,
+          501,
+          402
+        ]
+      ],
+      "sha256": "2037dca40073cecf99494127133a7beefbc29f54c97f02b876bc2fffabc6ce8f"
+    },
+    {
+      "id": "penn_fudan/FudanPed00045",
+      "path": "FudanPed00045.png",
+      "width": 487,
+      "height": 538,
+      "boxes": [
+        [
+          0,
+          197,
+          197,
+          294,
+          481
+        ],
+        [
+          0,
+          318,
+          200,
+          403,
+          499
+        ],
+        [
+          0,
+          394,
+          211,
+          469,
+          495
+        ]
+      ],
+      "sha256": "932e97b8d33e3c58c604b850fcb6a9a68fd6998ec92d1dd1a268edac76d6d86c"
+    },
+    {
+      "id": "penn_fudan/FudanPed00046",
+      "path": "FudanPed00046.png",
+      "width": 567,
+      "height": 438,
+      "boxes": [
+        [
+          0,
+          177,
+          122,
+          271,
+          410
+        ],
+        [
+          0,
+          298,
+          113,
+          370,
+          335
+        ],
+        [
+          0,
+          445,
+          103,
+          507,
+          315
+        ],
+        [
+          0,
+          520,
+          118,
+          565,
+          258
+        ]
+      ],
+      "sha256": "0a7834abaf3f28bb667792058f220caaeb91a38b64302edb38dd0bdc3be4f80a"
+    },
+    {
+      "id": "penn_fudan/FudanPed00047",
+      "path": "FudanPed00047.png",
+      "width": 472,
+      "height": 520,
+      "boxes": [
+        [
+          0,
+          271,
+          197,
+          371,
+          482
+        ],
+        [
+          0,
+          30,
+          194,
+          90,
+          427
+        ],
+        [
+          0,
+          383,
+          184,
+          430,
+          298
+        ]
+      ],
+      "sha256": "462fc7b2a5871797ac562320ef700d24413fa32d83911fa1b3d218cb3160cfb1"
+    },
+    {
+      "id": "penn_fudan/FudanPed00048",
+      "path": "FudanPed00048.png",
+      "width": 585,
+      "height": 559,
+      "boxes": [
+        [
+          0,
+          5,
+          241,
+          84,
+          535
+        ],
+        [
+          0,
+          78,
+          230,
+          144,
+          455
+        ],
+        [
+          0,
+          157,
+          218,
+          251,
+          507
+        ],
+        [
+          0,
+          459,
+          262,
+          580,
+          544
+        ]
+      ],
+      "sha256": "805008af783d085a18edf81b3ba02d460844717ebba21058b4fd87aa9ebdf01f"
+    },
+    {
+      "id": "penn_fudan/FudanPed00049",
+      "path": "FudanPed00049.png",
+      "width": 447,
+      "height": 512,
+      "boxes": [
+        [
+          0,
+          126,
+          122,
+          213,
+          412
+        ],
+        [
+          0,
+          213,
+          105,
+          317,
+          392
+        ],
+        [
+          0,
+          314,
+          106,
+          435,
+          387
+        ]
+      ],
+      "sha256": "2e85899f0ff1c9fc63369ac06d3de9fc43e7fad8c012a6126d1061ac7751b743"
+    },
+    {
+      "id": "penn_fudan/FudanPed00050",
+      "path": "FudanPed00050.png",
+      "width": 580,
+      "height": 516,
+      "boxes": [
+        [
+          0,
+          32,
+          202,
+          135,
+          484
+        ],
+        [
+          0,
+          290,
+          204,
+          369,
+          412
+        ]
+      ],
+      "sha256": "b90c782e296230b266965aab2ef22d4557c4463b96400c4341f459cc2207ca21"
+    },
+    {
+      "id": "penn_fudan/FudanPed00051",
+      "path": "FudanPed00051.png",
+      "width": 448,
+      "height": 501,
+      "boxes": [
+        [
+          0,
+          125,
+          190,
+          218,
+          476
+        ]
+      ],
+      "sha256": "03697f57dae4fabd073a18dcb9e9f877acee3b610b41db1e726faa0a6aeed013"
+    },
+    {
+      "id": "penn_fudan/FudanPed00052",
+      "path": "FudanPed00052.png",
+      "width": 461,
+      "height": 504,
+      "boxes": [
+        [
+          0,
+          205,
+          188,
+          308,
+          492
+        ]
+      ],
+      "sha256": "afe9b8fc9bf30d6dad10103565c1d899b36bc42d000bfa5206d9d0d17f5079dd"
+    },
+    {
+      "id": "penn_fudan/FudanPed00053",
+      "path": "FudanPed00053.png",
+      "width": 541,
+      "height": 580,
+      "boxes": [
+        [
+          0,
+          93,
+          168,
+          195,
+          432
+        ],
+        [
+          0,
+          388,
+          149,
+          499,
+          453
+        ]
+      ],
+      "sha256": "d13b3932c3fad5cd25385e881fb1a119cb269dde8a3e8693f47482ca26f6337b"
+    },
+    {
+      "id": "penn_fudan/FudanPed00054",
+      "path": "FudanPed00054.png",
+      "width": 533,
+      "height": 498,
+      "boxes": [
+        [
+          0,
+          96,
+          134,
+          182,
+          418
+        ],
+        [
+          0,
+          286,
+          113,
+          358,
+          332
+        ],
+        [
+          0,
+          363,
+          120,
+          437,
+          329
+        ]
+      ],
+      "sha256": "15e193741fa3e38f197f97cdddc8efe0762620c19bb696731f829a7ce25c50fa"
+    },
+    {
+      "id": "penn_fudan/FudanPed00055",
+      "path": "FudanPed00055.png",
+      "width": 390,
+      "height": 555,
+      "boxes": [
+        [
+          0,
+          147,
+          177,
+          277,
+          530
+        ]
+      ],
+      "sha256": "60e5a523651902372f1f3789374a0c555eee1e7eff4430610d03b9da1916a6c2"
+    },
+    {
+      "id": "penn_fudan/FudanPed00056",
+      "path": "FudanPed00056.png",
+      "width": 565,
+      "height": 581,
+      "boxes": [
+        [
+          0,
+          438,
+          246,
+          537,
+          522
+        ],
+        [
+          0,
+          199,
+          258,
+          270,
+          529
+        ],
+        [
+          0,
+          251,
+          255,
+          374,
+          528
+        ]
+      ],
+      "sha256": "dba142d05726356146c23ad4dd261f7a9b87542cc5b7f84a6c2320dec958ffa8"
+    },
+    {
+      "id": "penn_fudan/FudanPed00057",
+      "path": "FudanPed00057.png",
+      "width": 482,
+      "height": 519,
+      "boxes": [
+        [
+          0,
+          21,
+          90,
+          143,
+          406
+        ],
+        [
+          0,
+          130,
+          92,
+          205,
+          358
+        ],
+        [
+          0,
+          236,
+          82,
+          312,
+          356
+        ],
+        [
+          0,
+          342,
+          116,
+          388,
+          267
+        ],
+        [
+          0,
+          385,
+          115,
+          427,
+          250
+        ]
+      ],
+      "sha256": "8a6a6451f22385056075aef42e22767fbb7f58c0e8590a97c7d4e39f76ddd92f"
+    },
+    {
+      "id": "penn_fudan/FudanPed00058",
+      "path": "FudanPed00058.png",
+      "width": 522,
+      "height": 479,
+      "boxes": [
+        [
+          0,
+          144,
+          91,
+          261,
+          463
+        ],
+        [
+          0,
+          42,
+          122,
+          64,
+          211
+        ],
+        [
+          0,
+          288,
+          101,
+          341,
+          280
+        ],
+        [
+          0,
+          352,
+          96,
+          406,
+          276
+        ],
+        [
+          0,
+          426,
+          125,
+          446,
+          182
+        ],
+        [
+          0,
+          461,
+          125,
+          474,
+          171
+        ],
+        [
+          0,
+          472,
+          132,
+          489,
+          183
+        ],
+        [
+          0,
+          491,
+          120,
+          517,
+          202
+        ]
+      ],
+      "sha256": "47802584f435e449f42e838834dc18c016e7bdfcedda9cee1a781d85d5e992fd"
+    },
+    {
+      "id": "penn_fudan/FudanPed00059",
+      "path": "FudanPed00059.png",
+      "width": 576,
+      "height": 369,
+      "boxes": [
+        [
+          0,
+          34,
+          53,
+          135,
+          330
+        ],
+        [
+          0,
+          158,
+          35,
+          252,
+          329
+        ],
+        [
+          0,
+          269,
+          44,
+          380,
+          328
+        ]
+      ],
+      "sha256": "09bcb2197283c232b6e8e107b05c388d3fecec7d21dc33d7195e9c2fc75ffb3b"
+    },
+    {
+      "id": "penn_fudan/FudanPed00060",
+      "path": "FudanPed00060.png",
+      "width": 517,
+      "height": 440,
+      "boxes": [
+        [
+          0,
+          187,
+          140,
+          291,
+          427
+        ],
+        [
+          0,
+          292,
+          129,
+          384,
+          430
+        ],
+        [
+          0,
+          394,
+          148,
+          498,
+          427
+        ]
+      ],
+      "sha256": "d058f9cdb138898af3c8b1eb1e0505d0592d48900e4a05b2ddbc5ba3fb1e53fc"
+    },
+    {
+      "id": "penn_fudan/FudanPed00061",
+      "path": "FudanPed00061.png",
+      "width": 547,
+      "height": 407,
+      "boxes": [
+        [
+          0,
+          164,
+          69,
+          266,
+          353
+        ],
+        [
+          0,
+          342,
+          85,
+          429,
+          381
+        ],
+        [
+          0,
+          405,
+          84,
+          531,
+          387
+        ]
+      ],
+      "sha256": "2bf5b3ea03d46520f7c789ae0d2cf6da5b131da921ab242e58c7e572e9b5ffbf"
+    },
+    {
+      "id": "penn_fudan/FudanPed00062",
+      "path": "FudanPed00062.png",
+      "width": 414,
+      "height": 341,
+      "boxes": [
+        [
+          0,
+          174,
+          24,
+          255,
+          321
+        ],
+        [
+          0,
+          290,
+          33,
+          377,
+          330
+        ]
+      ],
+      "sha256": "afbff4b1411263f3df756bd3ad938d415c865dad7b683e789960206031d0114c"
+    },
+    {
+      "id": "penn_fudan/FudanPed00063",
+      "path": "FudanPed00063.png",
+      "width": 486,
+      "height": 359,
+      "boxes": [
+        [
+          0,
+          28,
+          37,
+          114,
+          332
+        ],
+        [
+          0,
+          155,
+          41,
+          262,
+          329
+        ],
+        [
+          0,
+          311,
+          53,
+          330,
+          99
+        ],
+        [
+          0,
+          296,
+          53,
+          303,
+          73
+        ],
+        [
+          0,
+          304,
+          52,
+          310,
+          73
+        ]
+      ],
+      "sha256": "471509461bee4ddab5e7ad00ae28a40ab82e8bcf9d048f1fe05cfcf403c4f4f2"
+    },
+    {
+      "id": "penn_fudan/FudanPed00064",
+      "path": "FudanPed00064.png",
+      "width": 546,
+      "height": 420,
+      "boxes": [
+        [
+          0,
+          140,
+          97,
+          240,
+          387
+        ],
+        [
+          0,
+          316,
+          100,
+          400,
+          395
+        ],
+        [
+          0,
+          399,
+          111,
+          517,
+          407
+        ]
+      ],
+      "sha256": "b0c82705386da139d8de4a67f0c20d7d59bc0f8d6d8cea052db3b791b8399c07"
+    },
+    {
+      "id": "penn_fudan/FudanPed00065",
+      "path": "FudanPed00065.png",
+      "width": 504,
+      "height": 411,
+      "boxes": [
+        [
+          0,
+          28,
+          68,
+          147,
+          382
+        ],
+        [
+          0,
+          146,
+          83,
+          242,
+          385
+        ],
+        [
+          0,
+          233,
+          69,
+          311,
+          393
+        ],
+        [
+          0,
+          341,
+          87,
+          430,
+          351
+        ],
+        [
+          0,
+          12,
+          57,
+          64,
+          183
+        ]
+      ],
+      "sha256": "8b5c5678f49a6bfba25bf0c34c055fb6d063b91410dac1f50da9f99da0c41ed4"
+    },
+    {
+      "id": "penn_fudan/FudanPed00066",
+      "path": "FudanPed00066.png",
+      "width": 360,
+      "height": 359,
+      "boxes": [
+        [
+          0,
+          247,
+          49,
+          329,
+          351
+        ]
+      ],
+      "sha256": "f967300ad1b6f62ae29d1dc5779b8f089ba36744435d1092c7bac71e6808fc1e"
+    },
+    {
+      "id": "penn_fudan/FudanPed00067",
+      "path": "FudanPed00067.png",
+      "width": 453,
+      "height": 416,
+      "boxes": [
+        [
+          0,
+          61,
+          78,
+          184,
+          375
+        ]
+      ],
+      "sha256": "1763f4b22c509622b254bd6af3203e78b92e8dee2573e1dff3afc8d7dcd28e16"
+    },
+    {
+      "id": "penn_fudan/FudanPed00068",
+      "path": "FudanPed00068.png",
+      "width": 375,
+      "height": 398,
+      "boxes": [
+        [
+          0,
+          248,
+          65,
+          318,
+          361
+        ]
+      ],
+      "sha256": "5df539028a6f42d55efd0f35affc06551821372bda5f9d554bfcf62c691d7788"
+    },
+    {
+      "id": "penn_fudan/FudanPed00069",
+      "path": "FudanPed00069.png",
+      "width": 354,
+      "height": 379,
+      "boxes": [
+        [
+          0,
+          214,
+          69,
+          315,
+          363
+        ]
+      ],
+      "sha256": "6c70aea91ec97059cf2869afda30111178709d07b41a834bebbef7e41ca5f3ef"
+    },
+    {
+      "id": "penn_fudan/FudanPed00070",
+      "path": "FudanPed00070.png",
+      "width": 390,
+      "height": 382,
+      "boxes": [
+        [
+          0,
+          287,
+          69,
+          370,
+          364
+        ]
+      ],
+      "sha256": "809c783d024a72ae376aac182f4725c53be69141753eac6913040daf42b97e17"
+    },
+    {
+      "id": "penn_fudan/FudanPed00071",
+      "path": "FudanPed00071.png",
+      "width": 363,
+      "height": 353,
+      "boxes": [
+        [
+          0,
+          120,
+          43,
+          246,
+          330
+        ],
+        [
+          0,
+          255,
+          36,
+          339,
+          348
+        ],
+        [
+          0,
+          225,
+          51,
+          255,
+          119
+        ]
+      ],
+      "sha256": "9d578e4e01974d0526f1cfd163c13ec0535f7ba46afde2821a68aaa1ebd399c6"
+    },
+    {
+      "id": "penn_fudan/FudanPed00072",
+      "path": "FudanPed00072.png",
+      "width": 375,
+      "height": 349,
+      "boxes": [
+        [
+          0,
+          47,
+          39,
+          139,
+          332
+        ]
+      ],
+      "sha256": "22f05a6aa65f248f0cf122fb9ea842aa6d55ae73d67216f69686c830c7d913a8"
+    },
+    {
+      "id": "penn_fudan/FudanPed00073",
+      "path": "FudanPed00073.png",
+      "width": 516,
+      "height": 392,
+      "boxes": [
+        [
+          0,
+          55,
+          65,
+          159,
+          360
+        ],
+        [
+          0,
+          192,
+          58,
+          289,
+          352
+        ]
+      ],
+      "sha256": "dcce270c15ff5f3aabbe30cd15bb71c5c794494ad56fbf49be88045d6b284657"
+    },
+    {
+      "id": "penn_fudan/FudanPed00074",
+      "path": "FudanPed00074.png",
+      "width": 421,
+      "height": 370,
+      "boxes": [
+        [
+          0,
+          47,
+          50,
+          126,
+          351
+        ],
+        [
+          0,
+          177,
+          60,
+          256,
+          345
+        ]
+      ],
+      "sha256": "68ae56c77337bff29fe652bf15a9568852a8e73a6729330cbb7bce9841f9054f"
+    },
+    {
+      "id": "penn_fudan/PennPed00001",
+      "path": "PennPed00001.png",
+      "width": 612,
+      "height": 406,
+      "boxes": [
+        [
+          0,
+          82,
+          65,
+          197,
+          353
+        ],
+        [
+          0,
+          264,
+          74,
+          355,
+          338
+        ],
+        [
+          0,
+          402,
+          37,
+          501,
+          348
+        ],
+        [
+          0,
+          513,
+          64,
+          610,
+          318
+        ],
+        [
+          0,
+          205,
+          24,
+          266,
+          196
+        ]
+      ],
+      "sha256": "c90af45f1e29ad3b4dcab13551ed7d26f5bc7e35f12907f79469ac6714e9da94"
+    },
+    {
+      "id": "penn_fudan/PennPed00002",
+      "path": "PennPed00002.png",
+      "width": 745,
+      "height": 378,
+      "boxes": [
+        [
+          0,
+          8,
+          83,
+          97,
+          304
+        ],
+        [
+          0,
+          82,
+          44,
+          165,
+          298
+        ],
+        [
+          0,
+          267,
+          83,
+          370,
+          298
+        ],
+        [
+          0,
+          362,
+          32,
+          516,
+          335
+        ],
+        [
+          0,
+          575,
+          74,
+          713,
+          362
+        ],
+        [
+          0,
+          516,
+          91,
+          608,
+          300
+        ]
+      ],
+      "sha256": "f592a20cdb786a09d1ee2ba8fcfed7adb80fc9d9ff40069f75400b7dcd94f55c"
+    },
+    {
+      "id": "penn_fudan/PennPed00003",
+      "path": "PennPed00003.png",
+      "width": 670,
+      "height": 418,
+      "boxes": [
+        [
+          0,
+          7,
+          32,
+          174,
+          365
+        ],
+        [
+          0,
+          451,
+          63,
+          531,
+          353
+        ],
+        [
+          0,
+          530,
+          90,
+          661,
+          381
+        ]
+      ],
+      "sha256": "4e4043c81ffc66afa3c18745af39c29fff5237c3c635bc4e84d912ce7918dcbb"
+    },
+    {
+      "id": "penn_fudan/PennPed00004",
+      "path": "PennPed00004.png",
+      "width": 786,
+      "height": 436,
+      "boxes": [
+        [
+          0,
+          66,
+          60,
+          170,
+          410
+        ],
+        [
+          0,
+          154,
+          90,
+          253,
+          385
+        ],
+        [
+          0,
+          227,
+          93,
+          325,
+          391
+        ],
+        [
+          0,
+          416,
+          100,
+          516,
+          391
+        ],
+        [
+          0,
+          594,
+          111,
+          734,
+          397
+        ]
+      ],
+      "sha256": "40fd028872365a0f41f3a0680075756c315879462e56e014e5bdc1f7d570087b"
+    },
+    {
+      "id": "penn_fudan/PennPed00005",
+      "path": "PennPed00005.png",
+      "width": 767,
+      "height": 454,
+      "boxes": [
+        [
+          0,
+          67,
+          129,
+          159,
+          405
+        ],
+        [
+          0,
+          164,
+          153,
+          252,
+          410
+        ],
+        [
+          0,
+          262,
+          143,
+          415,
+          439
+        ],
+        [
+          0,
+          539,
+          168,
+          666,
+          440
+        ],
+        [
+          0,
+          601,
+          155,
+          701,
+          396
+        ]
+      ],
+      "sha256": "aef0bab472bac61c91e11afbfe264f950e1b7b495c031be80b61d32eb477008b"
+    },
+    {
+      "id": "penn_fudan/PennPed00006",
+      "path": "PennPed00006.png",
+      "width": 631,
+      "height": 436,
+      "boxes": [
+        [
+          0,
+          110,
+          71,
+          199,
+          412
+        ],
+        [
+          0,
+          230,
+          95,
+          329,
+          388
+        ],
+        [
+          0,
+          442,
+          107,
+          608,
+          435
+        ],
+        [
+          0,
+          2,
+          101,
+          69,
+          397
+        ]
+      ],
+      "sha256": "c1a9d658d8aa53e4043eee9bd10d31b9ff2ccfb0a3419ec0e37c7adb6ebcfb4d"
+    },
+    {
+      "id": "penn_fudan/PennPed00007",
+      "path": "PennPed00007.png",
+      "width": 570,
+      "height": 412,
+      "boxes": [
+        [
+          0,
+          41,
+          59,
+          165,
+          350
+        ],
+        [
+          0,
+          126,
+          82,
+          201,
+          359
+        ],
+        [
+          0,
+          186,
+          75,
+          309,
+          369
+        ],
+        [
+          0,
+          298,
+          75,
+          381,
+          400
+        ],
+        [
+          0,
+          425,
+          67,
+          527,
+          343
+        ]
+      ],
+      "sha256": "c91ff2a117df5a0a0bcbfc6ac13f568f1ad4acb372f4b4f26c3f8260659083cb"
+    },
+    {
+      "id": "penn_fudan/PennPed00008",
+      "path": "PennPed00008.png",
+      "width": 452,
+      "height": 403,
+      "boxes": [
+        [
+          0,
+          46,
+          70,
+          177,
+          366
+        ],
+        [
+          0,
+          198,
+          76,
+          305,
+          329
+        ],
+        [
+          0,
+          255,
+          73,
+          394,
+          345
+        ],
+        [
+          0,
+          342,
+          52,
+          421,
+          278
+        ]
+      ],
+      "sha256": "433fa62d3a10e13578292a7c3a2c1f0615361488138a9b2daccab7cfbe1d2645"
+    },
+    {
+      "id": "penn_fudan/PennPed00009",
+      "path": "PennPed00009.png",
+      "width": 648,
+      "height": 413,
+      "boxes": [
+        [
+          0,
+          46,
+          84,
+          147,
+          292
+        ],
+        [
+          0,
+          162,
+          86,
+          240,
+          348
+        ],
+        [
+          0,
+          224,
+          85,
+          300,
+          307
+        ],
+        [
+          0,
+          315,
+          80,
+          391,
+          369
+        ],
+        [
+          0,
+          374,
+          99,
+          471,
+          351
+        ],
+        [
+          0,
+          469,
+          93,
+          559,
+          395
+        ],
+        [
+          0,
+          532,
+          89,
+          605,
+          376
+        ]
+      ],
+      "sha256": "a215fd244836296ba7b35a1645fee4328f7d4444bc72eba11ca669cd0a902dba"
+    },
+    {
+      "id": "penn_fudan/PennPed00010",
+      "path": "PennPed00010.png",
+      "width": 750,
+      "height": 495,
+      "boxes": [
+        [
+          0,
+          17,
+          58,
+          103,
+          340
+        ],
+        [
+          0,
+          185,
+          55,
+          262,
+          337
+        ],
+        [
+          0,
+          308,
+          140,
+          436,
+          493
+        ],
+        [
+          0,
+          474,
+          75,
+          618,
+          451
+        ],
+        [
+          0,
+          391,
+          57,
+          485,
+          421
+        ],
+        [
+          0,
+          562,
+          35,
+          681,
+          394
+        ]
+      ],
+      "sha256": "1269fc6c4ebd9ad51953de3e6a1a3c3f8735138d3c5b4e29598b0357a5d3e688"
+    },
+    {
+      "id": "penn_fudan/PennPed00011",
+      "path": "PennPed00011.png",
+      "width": 508,
+      "height": 376,
+      "boxes": [
+        [
+          0,
+          91,
+          61,
+          236,
+          344
+        ],
+        [
+          0,
+          241,
+          51,
+          301,
+          355
+        ]
+      ],
+      "sha256": "4378bb3d4a611b7f2668597c8dd29a7d30b18dcd324bb99b8286896ec9ce084f"
+    },
+    {
+      "id": "penn_fudan/PennPed00012",
+      "path": "PennPed00012.png",
+      "width": 565,
+      "height": 429,
+      "boxes": [
+        [
+          0,
+          113,
+          121,
+          212,
+          403
+        ]
+      ],
+      "sha256": "4f22a9e5d708bd17ee68ca7ffcd7e4630ad94fee53ea95b65d9664ae7489e0c0"
+    },
+    {
+      "id": "penn_fudan/PennPed00013",
+      "path": "PennPed00013.png",
+      "width": 564,
+      "height": 385,
+      "boxes": [
+        [
+          0,
+          97,
+          78,
+          210,
+          359
+        ],
+        [
+          0,
+          258,
+          95,
+          364,
+          359
+        ],
+        [
+          0,
+          383,
+          80,
+          498,
+          355
+        ],
+        [
+          0,
+          214,
+          90,
+          257,
+          193
+        ]
+      ],
+      "sha256": "e2383d58bbb78c8aae60002d4a2cf061c4fd30da96e884a6682a9fd244e70b12"
+    },
+    {
+      "id": "penn_fudan/PennPed00014",
+      "path": "PennPed00014.png",
+      "width": 542,
+      "height": 368,
+      "boxes": [
+        [
+          0,
+          126,
+          39,
+          206,
+          229
+        ],
+        [
+          0,
+          208,
+          68,
+          312,
+          337
+        ],
+        [
+          0,
+          353,
+          59,
+          448,
+          337
+        ],
+        [
+          0,
+          285,
+          40,
+          353,
+          225
+        ]
+      ],
+      "sha256": "a04437ea5bc66466c06d2f7a6e493cd5150864b15420036698440d82498d49f4"
+    },
+    {
+      "id": "penn_fudan/PennPed00015",
+      "path": "PennPed00015.png",
+      "width": 906,
+      "height": 438,
+      "boxes": [
+        [
+          0,
+          122,
+          97,
+          280,
+          414
+        ],
+        [
+          0,
+          285,
+          90,
+          448,
+          378
+        ],
+        [
+          0,
+          748,
+          93,
+          834,
+          382
+        ]
+      ],
+      "sha256": "da2663a4eaf5fa294ff0d53b172cde50746857d873ee2ad1dc111d08908406a8"
+    },
+    {
+      "id": "penn_fudan/PennPed00016",
+      "path": "PennPed00016.png",
+      "width": 683,
+      "height": 399,
+      "boxes": [
+        [
+          0,
+          85,
+          50,
+          146,
+          362
+        ],
+        [
+          0,
+          235,
+          92,
+          329,
+          382
+        ],
+        [
+          0,
+          467,
+          65,
+          579,
+          367
+        ]
+      ],
+      "sha256": "1e630cb99cb76f9b9763a964ecebdcbcab55a10d23ccfba27dac2aef388c7137"
+    },
+    {
+      "id": "penn_fudan/PennPed00017",
+      "path": "PennPed00017.png",
+      "width": 492,
+      "height": 403,
+      "boxes": [
+        [
+          0,
+          114,
+          49,
+          204,
+          387
+        ],
+        [
+          0,
+          258,
+          48,
+          398,
+          336
+        ]
+      ],
+      "sha256": "fe40f760d161188efa7afeb0fbd38a7a1b36a5b7d55112a0e7958cb9857b9311"
+    },
+    {
+      "id": "penn_fudan/PennPed00018",
+      "path": "PennPed00018.png",
+      "width": 460,
+      "height": 344,
+      "boxes": [
+        [
+          0,
+          64,
+          31,
+          145,
+          327
+        ],
+        [
+          0,
+          180,
+          68,
+          262,
+          308
+        ]
+      ],
+      "sha256": "cd32237ab5568fc1723cfacb187ee6eef8934eb7ffe42f62fee3350cb02df99c"
+    },
+    {
+      "id": "penn_fudan/PennPed00019",
+      "path": "PennPed00019.png",
+      "width": 734,
+      "height": 404,
+      "boxes": [
+        [
+          0,
+          16,
+          77,
+          106,
+          356
+        ],
+        [
+          0,
+          159,
+          69,
+          249,
+          361
+        ],
+        [
+          0,
+          314,
+          59,
+          389,
+          364
+        ],
+        [
+          0,
+          367,
+          46,
+          473,
+          370
+        ],
+        [
+          0,
+          463,
+          74,
+          539,
+          362
+        ],
+        [
+          0,
+          524,
+          79,
+          636,
+          375
+        ],
+        [
+          0,
+          599,
+          77,
+          704,
+          375
+        ]
+      ],
+      "sha256": "8f9c7e9ce94bd961e2bfa5e93543ad72cedff776f575bea6198681fa1de27d32"
+    },
+    {
+      "id": "penn_fudan/PennPed00020",
+      "path": "PennPed00020.png",
+      "width": 721,
+      "height": 428,
+      "boxes": [
+        [
+          0,
+          141,
+          120,
+          264,
+          379
+        ],
+        [
+          0,
+          386,
+          75,
+          516,
+          365
+        ],
+        [
+          0,
+          444,
+          76,
+          607,
+          369
+        ]
+      ],
+      "sha256": "b7f7a5852ab701016f618f855b44634588fb90258186a086d21981a0768b0b26"
+    },
+    {
+      "id": "penn_fudan/PennPed00021",
+      "path": "PennPed00021.png",
+      "width": 712,
+      "height": 436,
+      "boxes": [
+        [
+          0,
+          67,
+          117,
+          218,
+          407
+        ],
+        [
+          0,
+          463,
+          80,
+          586,
+          382
+        ],
+        [
+          0,
+          558,
+          110,
+          681,
+          381
+        ]
+      ],
+      "sha256": "b2f9df0c5a67504ed9bed82191f76cfd349ad2dfc5510e2616e6ba181dde36b2"
+    },
+    {
+      "id": "penn_fudan/PennPed00022",
+      "path": "PennPed00022.png",
+      "width": 925,
+      "height": 486,
+      "boxes": [
+        [
+          0,
+          29,
+          117,
+          167,
+          413
+        ],
+        [
+          0,
+          119,
+          148,
+          257,
+          413
+        ],
+        [
+          0,
+          215,
+          151,
+          354,
+          416
+        ],
+        [
+          0,
+          704,
+          128,
+          839,
+          390
+        ],
+        [
+          0,
+          344,
+          161,
+          424,
+          342
+        ]
+      ],
+      "sha256": "23897c9466e2a7b13206aeb0e188fd972b3cee624c4c90dce472f1c46af1c996"
+    },
+    {
+      "id": "penn_fudan/PennPed00023",
+      "path": "PennPed00023.png",
+      "width": 536,
+      "height": 382,
+      "boxes": [
+        [
+          0,
+          106,
+          59,
+          275,
+          363
+        ]
+      ],
+      "sha256": "03543084adb0b7c14a7d3feef842d164c5e57e7c9cd8968a39f6060310d10bf5"
+    },
+    {
+      "id": "penn_fudan/PennPed00024",
+      "path": "PennPed00024.png",
+      "width": 409,
+      "height": 384,
+      "boxes": [
+        [
+          0,
+          70,
+          57,
+          170,
+          350
+        ]
+      ],
+      "sha256": "41daba4c62a049b1c15fae0a1026d34b05b4e39d3da35fc1510547a3aeb5f1d5"
+    },
+    {
+      "id": "penn_fudan/PennPed00025",
+      "path": "PennPed00025.png",
+      "width": 450,
+      "height": 334,
+      "boxes": [
+        [
+          0,
+          71,
+          33,
+          216,
+          310
+        ],
+        [
+          0,
+          188,
+          150,
+          276,
+          304
+        ],
+        [
+          0,
+          389,
+          1,
+          421,
+          71
+        ]
+      ],
+      "sha256": "1d0a05b83c4915b2264a5528fbfe5dc82274113f07a07151e489c90357a527ae"
+    },
+    {
+      "id": "penn_fudan/PennPed00026",
+      "path": "PennPed00026.png",
+      "width": 530,
+      "height": 410,
+      "boxes": [
+        [
+          0,
+          302,
+          93,
+          447,
+          382
+        ],
+        [
+          0,
+          199,
+          119,
+          291,
+          373
+        ]
+      ],
+      "sha256": "d249c2e810a868aada1316d700788aa4394425fd5f11fb8fcef0f816c40bdea1"
+    },
+    {
+      "id": "penn_fudan/PennPed00027",
+      "path": "PennPed00027.png",
+      "width": 492,
+      "height": 391,
+      "boxes": [
+        [
+          0,
+          125,
+          92,
+          212,
+          363
+        ],
+        [
+          0,
+          203,
+          80,
+          322,
+          367
+        ],
+        [
+          0,
+          346,
+          88,
+          463,
+          342
+        ]
+      ],
+      "sha256": "24ff119f34cdee0759782417cc2ef0d65fb194d4bc36f424bb9e6d73b94243ac"
+    },
+    {
+      "id": "penn_fudan/PennPed00028",
+      "path": "PennPed00028.png",
+      "width": 416,
+      "height": 368,
+      "boxes": [
+        [
+          0,
+          210,
+          49,
+          325,
+          334
+        ]
+      ],
+      "sha256": "3e782b04ee66983b2ee1e4d0848cf6ef44d7923217515634415345e0b1685520"
+    },
+    {
+      "id": "penn_fudan/PennPed00029",
+      "path": "PennPed00029.png",
+      "width": 672,
+      "height": 418,
+      "boxes": [
+        [
+          0,
+          113,
+          64,
+          214,
+          370
+        ],
+        [
+          0,
+          273,
+          97,
+          339,
+          391
+        ],
+        [
+          0,
+          362,
+          101,
+          466,
+          388
+        ],
+        [
+          0,
+          508,
+          102,
+          585,
+          392
+        ]
+      ],
+      "sha256": "1de4928a9f5b8ea02ff7c540e28b715a3aef2b9f347ce7ec444fa4f9f5e3a388"
+    },
+    {
+      "id": "penn_fudan/PennPed00030",
+      "path": "PennPed00030.png",
+      "width": 479,
+      "height": 354,
+      "boxes": [
+        [
+          0,
+          138,
+          36,
+          253,
+          339
+        ],
+        [
+          0,
+          2,
+          36,
+          95,
+          342
+        ],
+        [
+          0,
+          315,
+          42,
+          448,
+          339
+        ]
+      ],
+      "sha256": "db74f21928363ebe24e4a527da6f915f0e7eab59383802d5b18f6c39fbdd8a66"
+    },
+    {
+      "id": "penn_fudan/PennPed00031",
+      "path": "PennPed00031.png",
+      "width": 487,
+      "height": 340,
+      "boxes": [
+        [
+          0,
+          243,
+          41,
+          390,
+          329
+        ]
+      ],
+      "sha256": "9aed5638ae8ecebee8f2a6919a3c8f5b5f9975b9bf0c6f09550d08adc9e064b1"
+    },
+    {
+      "id": "penn_fudan/PennPed00032",
+      "path": "PennPed00032.png",
+      "width": 374,
+      "height": 344,
+      "boxes": [
+        [
+          0,
+          97,
+          49,
+          203,
+          329
+        ]
+      ],
+      "sha256": "43373527ea5a5c54ebff583e48f4469bb5a96f772809b9f871a7f8404df633c0"
+    },
+    {
+      "id": "penn_fudan/PennPed00033",
+      "path": "PennPed00033.png",
+      "width": 533,
+      "height": 391,
+      "boxes": [
+        [
+          0,
+          31,
+          36,
+          126,
+          370
+        ],
+        [
+          0,
+          109,
+          49,
+          214,
+          376
+        ],
+        [
+          0,
+          391,
+          69,
+          519,
+          368
+        ],
+        [
+          0,
+          273,
+          148,
+          389,
+          333
+        ]
+      ],
+      "sha256": "5f54c6f9f3d04d4ec0d03faea62f2adaff2698abc412c86fbb0ee26b5c0eb2a9"
+    },
+    {
+      "id": "penn_fudan/PennPed00034",
+      "path": "PennPed00034.png",
+      "width": 538,
+      "height": 422,
+      "boxes": [
+        [
+          0,
+          107,
+          57,
+          289,
+          391
+        ],
+        [
+          0,
+          301,
+          62,
+          405,
+          344
+        ],
+        [
+          0,
+          368,
+          66,
+          493,
+          353
+        ],
+        [
+          0,
+          180,
+          62,
+          278,
+          374
+        ]
+      ],
+      "sha256": "2d99494275178c949069a1b75824a9c065efafb049d6ec2dcd45bdf203d12ee9"
+    },
+    {
+      "id": "penn_fudan/PennPed00035",
+      "path": "PennPed00035.png",
+      "width": 623,
+      "height": 353,
+      "boxes": [
+        [
+          0,
+          168,
+          29,
+          275,
+          331
+        ],
+        [
+          0,
+          366,
+          53,
+          541,
+          333
+        ],
+        [
+          0,
+          120,
+          32,
+          208,
+          322
+        ]
+      ],
+      "sha256": "880cf75fe5bd0d89bb836bdb29e9d1d8a3685c9af9aec1b3c7d4492eb56f2c58"
+    },
+    {
+      "id": "penn_fudan/PennPed00036",
+      "path": "PennPed00036.png",
+      "width": 694,
+      "height": 370,
+      "boxes": [
+        [
+          0,
+          55,
+          61,
+          164,
+          330
+        ],
+        [
+          0,
+          513,
+          33,
+          636,
+          328
+        ]
+      ],
+      "sha256": "a12b365a9cbd818ec307873a5bfa044f4d667cda6248706ae420d6353ab8147b"
+    },
+    {
+      "id": "penn_fudan/PennPed00037",
+      "path": "PennPed00037.png",
+      "width": 366,
+      "height": 318,
+      "boxes": [
+        [
+          0,
+          228,
+          23,
+          328,
+          307
+        ]
+      ],
+      "sha256": "54a2b4caeff8b47e38160c8cc93eed14f341e5189dbad2ad29f90a238645925a"
+    },
+    {
+      "id": "penn_fudan/PennPed00038",
+      "path": "PennPed00038.png",
+      "width": 436,
+      "height": 353,
+      "boxes": [
+        [
+          0,
+          231,
+          38,
+          368,
+          316
+        ]
+      ],
+      "sha256": "0805e5a01ec02d777190e5c0924d1a78a3d619eb7b9f9a2f47abbf8f858bcc42"
+    },
+    {
+      "id": "penn_fudan/PennPed00039",
+      "path": "PennPed00039.png",
+      "width": 495,
+      "height": 373,
+      "boxes": [
+        [
+          0,
+          325,
+          72,
+          411,
+          360
+        ]
+      ],
+      "sha256": "87daf6faa2c8d4aa76be2aedfc4fad9b1dd3f0edc9085115545f1f8251e4cb6a"
+    },
+    {
+      "id": "penn_fudan/PennPed00040",
+      "path": "PennPed00040.png",
+      "width": 406,
+      "height": 342,
+      "boxes": [
+        [
+          0,
+          202,
+          41,
+          318,
+          330
+        ]
+      ],
+      "sha256": "6fb46eb5e99d6df95e76b483e7b6205760f5e97907a85f3eff1507c5f875da50"
+    },
+    {
+      "id": "penn_fudan/PennPed00041",
+      "path": "PennPed00041.png",
+      "width": 570,
+      "height": 422,
+      "boxes": [
+        [
+          0,
+          352,
+          98,
+          467,
+          380
+        ]
+      ],
+      "sha256": "4791c942de2ca85e8eecf523a42d0df23d1a5679b52b23cfb267c0166a6046f2"
+    },
+    {
+      "id": "penn_fudan/PennPed00042",
+      "path": "PennPed00042.png",
+      "width": 569,
+      "height": 344,
+      "boxes": [
+        [
+          0,
+          272,
+          36,
+          379,
+          312
+        ],
+        [
+          0,
+          402,
+          35,
+          472,
+          310
+        ]
+      ],
+      "sha256": "e709c41872b490b3cc2120b9251b8bad29c3f0d47e7b928dc98a292191688ec6"
+    },
+    {
+      "id": "penn_fudan/PennPed00043",
+      "path": "PennPed00043.png",
+      "width": 480,
+      "height": 356,
+      "boxes": [
+        [
+          0,
+          188,
+          46,
+          297,
+          334
+        ],
+        [
+          0,
+          331,
+          62,
+          434,
+          328
+        ],
+        [
+          0,
+          141,
+          77,
+          199,
+          254
+        ],
+        [
+          0,
+          281,
+          77,
+          328,
+          253
+        ],
+        [
+          0,
+          429,
+          72,
+          456,
+          154
+        ]
+      ],
+      "sha256": "4cefcab118e2f17ad5391b6ec65ad9939fa346fec78566b2b0d12c944d83283c"
+    },
+    {
+      "id": "penn_fudan/PennPed00044",
+      "path": "PennPed00044.png",
+      "width": 483,
+      "height": 335,
+      "boxes": [
+        [
+          0,
+          70,
+          35,
+          170,
+          329
+        ],
+        [
+          0,
+          252,
+          62,
+          336,
+          282
+        ],
+        [
+          0,
+          331,
+          53,
+          408,
+          276
+        ],
+        [
+          0,
+          180,
+          75,
+          225,
+          193
+        ]
+      ],
+      "sha256": "498ed8b3760a372b73c3601a737e11c989805ef6bf74ba87bd293a28ac156009"
+    },
+    {
+      "id": "penn_fudan/PennPed00045",
+      "path": "PennPed00045.png",
+      "width": 692,
+      "height": 395,
+      "boxes": [
+        [
+          0,
+          69,
+          63,
+          193,
+          365
+        ],
+        [
+          0,
+          225,
+          64,
+          321,
+          360
+        ],
+        [
+          0,
+          323,
+          66,
+          436,
+          347
+        ],
+        [
+          0,
+          525,
+          44,
+          639,
+          348
+        ],
+        [
+          0,
+          424,
+          66,
+          485,
+          217
+        ],
+        [
+          0,
+          493,
+          61,
+          548,
+          214
+        ]
+      ],
+      "sha256": "ebe047a39d1d75871cc07cc83b9ad45715aafb7799d1a648aa9e340690690f46"
+    },
+    {
+      "id": "penn_fudan/PennPed00046",
+      "path": "PennPed00046.png",
+      "width": 534,
+      "height": 348,
+      "boxes": [
+        [
+          0,
+          20,
+          57,
+          111,
+          323
+        ],
+        [
+          0,
+          317,
+          21,
+          420,
+          319
+        ],
+        [
+          0,
+          420,
+          61,
+          441,
+          119
+        ]
+      ],
+      "sha256": "c98f12e7d68d32fd623a5a9607588a15b678371045849a6ddf3c268f81a40e9e"
+    },
+    {
+      "id": "penn_fudan/PennPed00047",
+      "path": "PennPed00047.png",
+      "width": 500,
+      "height": 346,
+      "boxes": [
+        [
+          0,
+          115,
+          56,
+          253,
+          336
+        ],
+        [
+          0,
+          245,
+          32,
+          381,
+          320
+        ],
+        [
+          0,
+          361,
+          41,
+          427,
+          194
+        ]
+      ],
+      "sha256": "8a9d95ccdbd17346683f0eedf325f7b71277251ef31601fffc95d073624a220f"
+    },
+    {
+      "id": "penn_fudan/PennPed00048",
+      "path": "PennPed00048.png",
+      "width": 423,
+      "height": 380,
+      "boxes": [
+        [
+          0,
+          26,
+          32,
+          118,
+          326
+        ],
+        [
+          0,
+          115,
+          34,
+          198,
+          321
+        ],
+        [
+          0,
+          262,
+          20,
+          385,
+          369
+        ]
+      ],
+      "sha256": "bc8ef60be7cb795d5ec20f44643c1990b8778c54592cebf0d31327cbb0b2fc04"
+    },
+    {
+      "id": "penn_fudan/PennPed00049",
+      "path": "PennPed00049.png",
+      "width": 452,
+      "height": 350,
+      "boxes": [
+        [
+          0,
+          81,
+          47,
+          175,
+          346
+        ],
+        [
+          0,
+          174,
+          44,
+          253,
+          337
+        ],
+        [
+          0,
+          251,
+          80,
+          307,
+          237
+        ],
+        [
+          0,
+          309,
+          76,
+          368,
+          240
+        ]
+      ],
+      "sha256": "b0312d7f6cc901c7843769d62ee99ebba811a9a3462d17f04d407a933930f682"
+    },
+    {
+      "id": "penn_fudan/PennPed00050",
+      "path": "PennPed00050.png",
+      "width": 419,
+      "height": 315,
+      "boxes": [
+        [
+          0,
+          90,
+          40,
+          196,
+          291
+        ]
+      ],
+      "sha256": "9207c8dfe778e6e583de9c0d4befe42f2299aad6df1584845514b46b846d02cd"
+    },
+    {
+      "id": "penn_fudan/PennPed00051",
+      "path": "PennPed00051.png",
+      "width": 723,
+      "height": 411,
+      "boxes": [
+        [
+          0,
+          37,
+          51,
+          203,
+          326
+        ],
+        [
+          0,
+          313,
+          66,
+          481,
+          365
+        ],
+        [
+          0,
+          458,
+          33,
+          587,
+          373
+        ],
+        [
+          0,
+          553,
+          66,
+          628,
+          339
+        ]
+      ],
+      "sha256": "f3e251809bcdee9e21b26dbce82170ddd07a7dde77c2fd0a0bbb54b13957cb65"
+    },
+    {
+      "id": "penn_fudan/PennPed00052",
+      "path": "PennPed00052.png",
+      "width": 682,
+      "height": 525,
+      "boxes": [
+        [
+          0,
+          76,
+          136,
+          175,
+          428
+        ],
+        [
+          0,
+          168,
+          180,
+          294,
+          491
+        ],
+        [
+          0,
+          402,
+          156,
+          494,
+          400
+        ],
+        [
+          0,
+          523,
+          82,
+          613,
+          393
+        ],
+        [
+          0,
+          278,
+          178,
+          334,
+          314
+        ]
+      ],
+      "sha256": "013d6f5301dba88f4d9d678a9b46237458f96476fbe42f682d0b01d2c4ec9eaa"
+    },
+    {
+      "id": "penn_fudan/PennPed00053",
+      "path": "PennPed00053.png",
+      "width": 377,
+      "height": 344,
+      "boxes": [
+        [
+          0,
+          14,
+          28,
+          124,
+          325
+        ],
+        [
+          0,
+          168,
+          26,
+          266,
+          329
+        ]
+      ],
+      "sha256": "74c46329449d376e1afc11aac5b58d282e356822c6229cdf51208069686c9d03"
+    },
+    {
+      "id": "penn_fudan/PennPed00054",
+      "path": "PennPed00054.png",
+      "width": 324,
+      "height": 334,
+      "boxes": [
+        [
+          0,
+          42,
+          21,
+          128,
+          317
+        ]
+      ],
+      "sha256": "b03a8189a12bc13f983853e86a5b547d3ef4d199a3fa6f811245081cc439ab07"
+    },
+    {
+      "id": "penn_fudan/PennPed00055",
+      "path": "PennPed00055.png",
+      "width": 417,
+      "height": 353,
+      "boxes": [
+        [
+          0,
+          95,
+          50,
+          208,
+          341
+        ],
+        [
+          0,
+          28,
+          7,
+          122,
+          283
+        ]
+      ],
+      "sha256": "0551ece0620b8b61d01dc34b35805d1ed211d6a3beb15e22652c4beca392eaae"
+    },
+    {
+      "id": "penn_fudan/PennPed00056",
+      "path": "PennPed00056.png",
+      "width": 618,
+      "height": 420,
+      "boxes": [
+        [
+          0,
+          174,
+          105,
+          271,
+          398
+        ],
+        [
+          0,
+          139,
+          121,
+          193,
+          384
+        ],
+        [
+          0,
+          256,
+          97,
+          306,
+          386
+        ]
+      ],
+      "sha256": "b6af49c3e8536132683f112913a872656b5a43891a503e5c94abe3091b48f186"
+    },
+    {
+      "id": "penn_fudan/PennPed00057",
+      "path": "PennPed00057.png",
+      "width": 371,
+      "height": 364,
+      "boxes": [
+        [
+          0,
+          157,
+          63,
+          261,
+          352
+        ],
+        [
+          0,
+          197,
+          17,
+          266,
+          294
+        ]
+      ],
+      "sha256": "7fa9f32b67b00a9e03bf1c50bb98a53deaf567294713053c355aed36f70a8dd4"
+    },
+    {
+      "id": "penn_fudan/PennPed00058",
+      "path": "PennPed00058.png",
+      "width": 509,
+      "height": 380,
+      "boxes": [
+        [
+          0,
+          166,
+          26,
+          245,
+          316
+        ],
+        [
+          0,
+          227,
+          30,
+          307,
+          291
+        ],
+        [
+          0,
+          321,
+          65,
+          452,
+          351
+        ],
+        [
+          0,
+          294,
+          21,
+          374,
+          274
+        ]
+      ],
+      "sha256": "02acf9b54c5721283950f204446dd3030967ab48c3c826deeceb45e224e1e60f"
+    },
+    {
+      "id": "penn_fudan/PennPed00059",
+      "path": "PennPed00059.png",
+      "width": 582,
+      "height": 362,
+      "boxes": [
+        [
+          0,
+          79,
+          43,
+          177,
+          337
+        ],
+        [
+          0,
+          380,
+          35,
+          529,
+          323
+        ]
+      ],
+      "sha256": "18b2de8030d54f74289ebe67c265faf5be89c9ae079d59208c2c89346a81c573"
+    },
+    {
+      "id": "penn_fudan/PennPed00060",
+      "path": "PennPed00060.png",
+      "width": 505,
+      "height": 351,
+      "boxes": [
+        [
+          0,
+          42,
+          22,
+          142,
+          326
+        ],
+        [
+          0,
+          188,
+          20,
+          283,
+          230
+        ],
+        [
+          0,
+          116,
+          27,
+          191,
+          226
+        ],
+        [
+          0,
+          272,
+          80,
+          389,
+          327
+        ],
+        [
+          0,
+          377,
+          30,
+          476,
+          330
+        ]
+      ],
+      "sha256": "939cd2ab0d63c3cb15bd1155071fe4e117140172893156e6b8b9c05a0c4a1cb8"
+    },
+    {
+      "id": "penn_fudan/PennPed00061",
+      "path": "PennPed00061.png",
+      "width": 314,
+      "height": 320,
+      "boxes": [
+        [
+          0,
+          33,
+          16,
+          143,
+          307
+        ],
+        [
+          0,
+          249,
+          56,
+          275,
+          146
+        ]
+      ],
+      "sha256": "20b064554baedefdd2ccdf058047df35b432013adc2e4c89f6374dc12ae3796f"
+    },
+    {
+      "id": "penn_fudan/PennPed00062",
+      "path": "PennPed00062.png",
+      "width": 396,
+      "height": 315,
+      "boxes": [
+        [
+          0,
+          85,
+          14,
+          184,
+          301
+        ],
+        [
+          0,
+          175,
+          34,
+          288,
+          305
+        ],
+        [
+          0,
+          1,
+          45,
+          57,
+          223
+        ],
+        [
+          0,
+          320,
+          53,
+          373,
+          234
+        ]
+      ],
+      "sha256": "0449c9cb5c5eea2c97d05bd234be1c6fd8a2a10af73b42ff2b5b6d0fb2d2ef1f"
+    },
+    {
+      "id": "penn_fudan/PennPed00063",
+      "path": "PennPed00063.png",
+      "width": 427,
+      "height": 350,
+      "boxes": [
+        [
+          0,
+          87,
+          49,
+          262,
+          339
+        ]
+      ],
+      "sha256": "f98c75b5d6016c37f9c0ba0be1391dec96535fc909525902c95d3dd5d97dbc78"
+    },
+    {
+      "id": "penn_fudan/PennPed00064",
+      "path": "PennPed00064.png",
+      "width": 370,
+      "height": 322,
+      "boxes": [
+        [
+          0,
+          225,
+          28,
+          334,
+          314
+        ]
+      ],
+      "sha256": "4dfb95e5d231c6c9ccd16b94eebbe1d3de80d0c89d3c07f935ef3b49174f9d6a"
+    },
+    {
+      "id": "penn_fudan/PennPed00065",
+      "path": "PennPed00065.png",
+      "width": 324,
+      "height": 318,
+      "boxes": [
+        [
+          0,
+          23,
+          20,
+          139,
+          304
+        ]
+      ],
+      "sha256": "51bfd97ed3f6286d0d64ae3fc7372aa8873d88c28e6f197930ab006027155dcb"
+    },
+    {
+      "id": "penn_fudan/PennPed00066",
+      "path": "PennPed00066.png",
+      "width": 428,
+      "height": 375,
+      "boxes": [
+        [
+          0,
+          10,
+          75,
+          128,
+          365
+        ],
+        [
+          0,
+          264,
+          32,
+          398,
+          312
+        ],
+        [
+          0,
+          75,
+          29,
+          189,
+          345
+        ]
+      ],
+      "sha256": "3bddf9720f91e34d0a6452f222050891f2d67ebce51662605a2fe49e6d55ad45"
+    },
+    {
+      "id": "penn_fudan/PennPed00067",
+      "path": "PennPed00067.png",
+      "width": 370,
+      "height": 318,
+      "boxes": [
+        [
+          0,
+          36,
+          12,
+          184,
+          298
+        ]
+      ],
+      "sha256": "659ff0d99f355f25539a5feea89f6e8a450e92d9f4d74c28ae17506ae5e114c4"
+    },
+    {
+      "id": "penn_fudan/PennPed00068",
+      "path": "PennPed00068.png",
+      "width": 603,
+      "height": 387,
+      "boxes": [
+        [
+          0,
+          42,
+          88,
+          153,
+          364
+        ],
+        [
+          0,
+          188,
+          55,
+          283,
+          349
+        ],
+        [
+          0,
+          430,
+          36,
+          568,
+          349
+        ],
+        [
+          0,
+          383,
+          46,
+          455,
+          223
+        ]
+      ],
+      "sha256": "b014e256a71271a51f8ae14cdad1c6aa07f19163e415789edb22838c05fcbaa7"
+    },
+    {
+      "id": "penn_fudan/PennPed00069",
+      "path": "PennPed00069.png",
+      "width": 388,
+      "height": 345,
+      "boxes": [
+        [
+          0,
+          58,
+          43,
+          149,
+          330
+        ],
+        [
+          0,
+          168,
+          39,
+          269,
+          310
+        ]
+      ],
+      "sha256": "b6577317e926129d8f5c2e0f0cabecd34289f85c0a6c28ff2abd4bacf170acc9"
+    },
+    {
+      "id": "penn_fudan/PennPed00070",
+      "path": "PennPed00070.png",
+      "width": 466,
+      "height": 354,
+      "boxes": [
+        [
+          0,
+          14,
+          23,
+          122,
+          341
+        ],
+        [
+          0,
+          184,
+          13,
+          306,
+          312
+        ]
+      ],
+      "sha256": "0f00ce5c8642875aee4667432799fc59b774c684ab129c6bc8d7475d6888a70d"
+    },
+    {
+      "id": "penn_fudan/PennPed00071",
+      "path": "PennPed00071.png",
+      "width": 767,
+      "height": 379,
+      "boxes": [
+        [
+          0,
+          48,
+          18,
+          171,
+          361
+        ],
+        [
+          0,
+          291,
+          43,
+          386,
+          305
+        ],
+        [
+          0,
+          475,
+          24,
+          567,
+          302
+        ],
+        [
+          0,
+          600,
+          12,
+          716,
+          306
+        ],
+        [
+          0,
+          566,
+          52,
+          612,
+          180
+        ],
+        [
+          0,
+          708,
+          52,
+          744,
+          174
+        ]
+      ],
+      "sha256": "44b25a5eb364cd5fa13d1739f27a6b0fe4476bbca54feab6d940705a632967c1"
+    },
+    {
+      "id": "penn_fudan/PennPed00072",
+      "path": "PennPed00072.png",
+      "width": 473,
+      "height": 348,
+      "boxes": [
+        [
+          0,
+          133,
+          24,
+          254,
+          337
+        ],
+        [
+          0,
+          279,
+          51,
+          431,
+          330
+        ]
+      ],
+      "sha256": "4839f8ddd782becdddb4f778d018211392cfbe3c588a0d98e322d639be767f98"
+    },
+    {
+      "id": "penn_fudan/PennPed00073",
+      "path": "PennPed00073.png",
+      "width": 579,
+      "height": 364,
+      "boxes": [
+        [
+          0,
+          97,
+          37,
+          191,
+          326
+        ],
+        [
+          0,
+          181,
+          45,
+          277,
+          340
+        ],
+        [
+          0,
+          315,
+          50,
+          413,
+          331
+        ]
+      ],
+      "sha256": "d594713b8c8d17d69574b454a9e0172cf5735c40375c75f1207ea9254162b184"
+    },
+    {
+      "id": "penn_fudan/PennPed00074",
+      "path": "PennPed00074.png",
+      "width": 442,
+      "height": 332,
+      "boxes": [
+        [
+          0,
+          259,
+          30,
+          422,
+          317
+        ],
+        [
+          0,
+          197,
+          22,
+          283,
+          303
+        ],
+        [
+          0,
+          116,
+          47,
+          223,
+          295
+        ]
+      ],
+      "sha256": "f808c322abdcf6689739eae3569fd50b175104156b459f178869071058bc53a7"
+    },
+    {
+      "id": "penn_fudan/PennPed00075",
+      "path": "PennPed00075.png",
+      "width": 368,
+      "height": 322,
+      "boxes": [
+        [
+          0,
+          193,
+          22,
+          335,
+          308
+        ]
+      ],
+      "sha256": "3b06ac8106fd832fb473e98f06033e80dce34b298a2dd31890b2cece5429b318"
+    },
+    {
+      "id": "penn_fudan/PennPed00076",
+      "path": "PennPed00076.png",
+      "width": 342,
+      "height": 348,
+      "boxes": [
+        [
+          0,
+          186,
+          28,
+          320,
+          319
+        ]
+      ],
+      "sha256": "666acede5167c5fd2b143aeaf7194f06da2be2dfa0e4e107faa3f720b0a98396"
+    },
+    {
+      "id": "penn_fudan/PennPed00077",
+      "path": "PennPed00077.png",
+      "width": 352,
+      "height": 323,
+      "boxes": [
+        [
+          0,
+          64,
+          26,
+          181,
+          317
+        ]
+      ],
+      "sha256": "a3da377ff6246bf54759e029727681b8496d4d1554212c54a75b76469ded1a12"
+    },
+    {
+      "id": "penn_fudan/PennPed00078",
+      "path": "PennPed00078.png",
+      "width": 349,
+      "height": 372,
+      "boxes": [
+        [
+          0,
+          215,
+          58,
+          320,
+          355
+        ]
+      ],
+      "sha256": "ba3e13d576760772437b86f6cb5cce221a3190c663d8a1b9333827b4904e072c"
+    },
+    {
+      "id": "penn_fudan/PennPed00079",
+      "path": "PennPed00079.png",
+      "width": 357,
+      "height": 337,
+      "boxes": [
+        [
+          0,
+          205,
+          24,
+          324,
+          320
+        ]
+      ],
+      "sha256": "9660daa8c7dcb816fd8e61db347ca14f4a70f4cc34f5e8e07cc38ae539a9ea1b"
+    },
+    {
+      "id": "penn_fudan/PennPed00080",
+      "path": "PennPed00080.png",
+      "width": 435,
+      "height": 361,
+      "boxes": [
+        [
+          0,
+          71,
+          46,
+          175,
+          339
+        ],
+        [
+          0,
+          197,
+          42,
+          314,
+          339
+        ],
+        [
+          0,
+          319,
+          43,
+          422,
+          332
+        ]
+      ],
+      "sha256": "e42c0af77ed57ad7da64bede5a7e821e81cdea523c77e60cf1a9ecf0db5900f9"
+    },
+    {
+      "id": "penn_fudan/PennPed00081",
+      "path": "PennPed00081.png",
+      "width": 561,
+      "height": 387,
+      "boxes": [
+        [
+          0,
+          147,
+          84,
+          239,
+          366
+        ],
+        [
+          0,
+          232,
+          53,
+          337,
+          360
+        ],
+        [
+          0,
+          329,
+          74,
+          455,
+          366
+        ]
+      ],
+      "sha256": "b9cf27aff00b5d3c745cfde35b77a0e9d1966291cfa462ffe73d7ac4cb190f24"
+    },
+    {
+      "id": "penn_fudan/PennPed00082",
+      "path": "PennPed00082.png",
+      "width": 398,
+      "height": 321,
+      "boxes": [
+        [
+          0,
+          79,
+          21,
+          229,
+          312
+        ]
+      ],
+      "sha256": "61faf7a48aca4b85f22ba825d089e5dc72246d02221d9bdc844cb94cbb8783bc"
+    },
+    {
+      "id": "penn_fudan/PennPed00083",
+      "path": "PennPed00083.png",
+      "width": 371,
+      "height": 341,
+      "boxes": [
+        [
+          0,
+          107,
+          31,
+          249,
+          327
+        ],
+        [
+          0,
+          37,
+          21,
+          124,
+          299
+        ]
+      ],
+      "sha256": "2cd01d7951082b3786a98e5002b89f53af0c3042e9434107a9bb9eba5d801fe6"
+    },
+    {
+      "id": "penn_fudan/PennPed00084",
+      "path": "PennPed00084.png",
+      "width": 370,
+      "height": 356,
+      "boxes": [
+        [
+          0,
+          141,
+          45,
+          310,
+          342
+        ],
+        [
+          0,
+          273,
+          20,
+          362,
+          334
+        ],
+        [
+          0,
+          160,
+          94,
+          208,
+          258
+        ]
+      ],
+      "sha256": "466516051ccfd22fac3126dbd0ab13b07d3202864561511584c2fb20afee7e3f"
+    },
+    {
+      "id": "penn_fudan/PennPed00085",
+      "path": "PennPed00085.png",
+      "width": 403,
+      "height": 341,
+      "boxes": [
+        [
+          0,
+          88,
+          26,
+          200,
+          302
+        ],
+        [
+          0,
+          244,
+          37,
+          368,
+          329
+        ]
+      ],
+      "sha256": "0e9a2f0210b3f1de793ac00b5d8e3a2accfee2e4c15d97c1d4460c651c0890fd"
+    },
+    {
+      "id": "penn_fudan/PennPed00086",
+      "path": "PennPed00086.png",
+      "width": 474,
+      "height": 354,
+      "boxes": [
+        [
+          0,
+          7,
+          32,
+          109,
+          253
+        ],
+        [
+          0,
+          207,
+          48,
+          306,
+          318
+        ],
+        [
+          0,
+          344,
+          31,
+          457,
+          325
+        ],
+        [
+          0,
+          72,
+          162,
+          180,
+          353
+        ],
+        [
+          0,
+          112,
+          64,
+          164,
+          197
+        ]
+      ],
+      "sha256": "17e40a1f137e9ee1e5c577111cebd3d9bc8db270873af83a250bcfda17589e35"
+    },
+    {
+      "id": "penn_fudan/PennPed00087",
+      "path": "PennPed00087.png",
+      "width": 325,
+      "height": 343,
+      "boxes": [
+        [
+          0,
+          22,
+          15,
+          148,
+          322
+        ]
+      ],
+      "sha256": "6a9c5effaef71340335c2aa16bc0af5424e93e845714236b4351202bcbfc2cd0"
+    },
+    {
+      "id": "penn_fudan/PennPed00088",
+      "path": "PennPed00088.png",
+      "width": 375,
+      "height": 320,
+      "boxes": [
+        [
+          0,
+          72,
+          17,
+          215,
+          312
+        ]
+      ],
+      "sha256": "dd4c57455ead9f9bd5d9f6aa9bc690cfada6fa65fb8cf776f34fef0b30657d71"
+    },
+    {
+      "id": "penn_fudan/PennPed00089",
+      "path": "PennPed00089.png",
+      "width": 428,
+      "height": 317,
+      "boxes": [
+        [
+          0,
+          84,
+          24,
+          165,
+          294
+        ],
+        [
+          0,
+          139,
+          5,
+          297,
+          309
+        ]
+      ],
+      "sha256": "1bc2887f5dcdcd7996652fd99664d589ec1f1e364bf89521b077ae66fc39942d"
+    },
+    {
+      "id": "penn_fudan/PennPed00090",
+      "path": "PennPed00090.png",
+      "width": 500,
+      "height": 370,
+      "boxes": [
+        [
+          0,
+          81,
+          22,
+          212,
+          358
+        ],
+        [
+          0,
+          42,
+          38,
+          122,
+          346
+        ],
+        [
+          0,
+          205,
+          37,
+          366,
+          326
+        ]
+      ],
+      "sha256": "deac99c59abcd01246dcb0cd8bd75f43cbcf474b3986fcdaf03659e55b23007d"
+    },
+    {
+      "id": "penn_fudan/PennPed00091",
+      "path": "PennPed00091.png",
+      "width": 372,
+      "height": 324,
+      "boxes": [
+        [
+          0,
+          211,
+          25,
+          336,
+          321
+        ]
+      ],
+      "sha256": "960c780e4f43ce92f18b5ac741aee582bf949cd63e3142b6955a5464e49f794a"
+    },
+    {
+      "id": "penn_fudan/PennPed00092",
+      "path": "PennPed00092.png",
+      "width": 600,
+      "height": 447,
+      "boxes": [
+        [
+          0,
+          105,
+          75,
+          311,
+          434
+        ],
+        [
+          0,
+          287,
+          93,
+          464,
+          390
+        ]
+      ],
+      "sha256": "ffa7730b89a87a352e616af579c1cdf06035a8d003e8c1a739760e63cb9905fa"
+    },
+    {
+      "id": "penn_fudan/PennPed00093",
+      "path": "PennPed00093.png",
+      "width": 368,
+      "height": 311,
+      "boxes": [
+        [
+          0,
+          50,
+          5,
+          222,
+          302
+        ]
+      ],
+      "sha256": "014e2c30dbd83f14b3a5ac5ac32a66d4077d1ba892726096eb3075e0399e97f3"
+    },
+    {
+      "id": "penn_fudan/PennPed00094",
+      "path": "PennPed00094.png",
+      "width": 422,
+      "height": 349,
+      "boxes": [
+        [
+          0,
+          121,
+          26,
+          256,
+          322
+        ]
+      ],
+      "sha256": "584b3eddb83043b592e9eb3a06ec6939e64c4feace60add63b1d1fced927fd26"
+    },
+    {
+      "id": "penn_fudan/PennPed00095",
+      "path": "PennPed00095.png",
+      "width": 512,
+      "height": 375,
+      "boxes": [
+        [
+          0,
+          192,
+          49,
+          300,
+          337
+        ],
+        [
+          0,
+          319,
+          54,
+          432,
+          335
+        ]
+      ],
+      "sha256": "a61e2030a7f644689b0508d64f112fb254141e986169b8322bab9954d71bcbf7"
+    },
+    {
+      "id": "penn_fudan/PennPed00096",
+      "path": "PennPed00096.png",
+      "width": 294,
+      "height": 331,
+      "boxes": [
+        [
+          0,
+          5,
+          37,
+          102,
+          324
+        ],
+        [
+          0,
+          100,
+          25,
+          206,
+          323
+        ]
+      ],
+      "sha256": "20613cb2aa60f654950c3275657f2892968f6e8b96cc13ad1fdf64a596976d46"
+    }
+  ],
+  "manifest_hash": "9c0fc2b8a349e9d83cf905c3e7373c434248fdd59e6b751924291a60b861280f",
+  "selection": "All released PNGImages",
+  "source": "https://www.cis.upenn.edu/~jshi/ped_html/PennFudanPed.zip",
+  "source_split": "all 170 images; no official held-out split used",
+  "split": "external_transfer",
+  "fit_performed": false,
+  "independent_camera_sessions_verified": false
+}
